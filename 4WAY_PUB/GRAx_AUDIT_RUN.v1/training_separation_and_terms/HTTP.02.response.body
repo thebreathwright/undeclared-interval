@@ -1,0 +1,1 @@
+{"models":[{"name":"brullama-grax:8b","model":"brullama-grax:8b","size":6306424832,"digest":"166a5e4841aa1a314da33ed7871cb961e9f1c1922fdb1c084f0217f83ef9fa23","details":{"parent_model":"","format":"safetensors","family":"","families":null,"parameter_size":"","quantization_level":""},"expires_at":"2026-09-20T09:57:33.161577-06:00","size_vram":6306424832,"context_length":32768}]}

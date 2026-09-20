@@ -1,0 +1,24 @@
+{
+  "canon_effect": "NONE",
+  "comparison": "NONE; one proposed reading, not an effect estimate",
+  "declared_transport": "CLI_LEAPTOIT_LOOPBACK_127_0_0_1_11435",
+  "endpoint": "http://127.0.0.1:11435",
+  "model": "brullama-grax:8b",
+  "num_ctx": 32768,
+  "num_predict": 5000,
+  "schema_version": "brudo-lrd-review-design-v1",
+  "selected_crystals": [
+    "abstention",
+    "entailment",
+    "polarity",
+    "provenance"
+  ],
+  "source_bindings": {
+    "prompt": "02c277585c1f2b148ebef42b9d9e19dd2e6731f14acb3785237791e9a5f2eb60",
+    "question": "e14b72b39d8fb39a68d05b476a4325b0517626f861130cbff2fff6061d4ce6f4",
+    "runner": "dbeefdec8aa66289488bdb83a87981303fed8895807eb2badd83ef3474e6f1c5",
+    "schema": "4b02371feec96c8022d1f1550bb1f1d355b7b5004c2a7474429ba0d8a3921937",
+    "source": "77ce65734acd96995e162e4838c1bce56b1169af07f0fa1053ff942ebb1823a2"
+  },
+  "think": true
+}

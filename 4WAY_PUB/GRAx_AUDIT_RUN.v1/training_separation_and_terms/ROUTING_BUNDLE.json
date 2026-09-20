@@ -1,0 +1,1141 @@
+{
+  "assay_assignment": {
+    "allocation_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+    "assigned_arm": "TREATMENT",
+    "assigned_crystal_set_sha256": "d6a53cf2e627457cd7cd918dad75d269b99ce332dcd975d0c0510745abcadcb0",
+    "assignment_plan_sha256": "d24ddcaa35ab9b01641493405f4bbc9e926acbf65da96d245ad586f1d34c9ecb",
+    "execution_unit_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000:01",
+    "schema_version": "brudo-crystal-assay-assignment-receipt-v1"
+  },
+  "assay_design_sha256": "3f52d1d8a1172590527100dea3c5ee0b778fb5176a9d6e90ca36e708b61ed794",
+  "assay_preintervention_triggered_crystals": [
+    "alexandrite",
+    "amethyst",
+    "fluorite",
+    "itzelf",
+    "pearl",
+    "polarity",
+    "topaz",
+    "zircon"
+  ],
+  "assay_selection": "PREDECLARED_ASSAY_ASSIGNMENT_NATIVE_ROUTE_V1",
+  "authority_inheritance": "NONE",
+  "base_triggered_crystals": [
+    "alexandrite",
+    "amethyst",
+    "fluorite",
+    "itzelf",
+    "pearl",
+    "polarity",
+    "topaz",
+    "zircon"
+  ],
+  "bundle_sha256": "9f61f0aa6c96bdccc27f1f60ef03881e099491e5ddec3783f814cc7c90cac259",
+  "canon_effect": "NONE",
+  "concept_counts": {
+    "archive_command_boundary": 0,
+    "contradiction_retention": 8,
+    "current_cue_priority": 1,
+    "read_only_memory_theory": 0,
+    "statement_to_evidence": 3
+  },
+  "crystal_counts": {
+    "abstention": 0,
+    "accountability": 0,
+    "agate": 0,
+    "alexandrite": 2,
+    "amethyst": 1,
+    "beryl": 0,
+    "boundary": 0,
+    "citrine": 0,
+    "diamond": 0,
+    "duty": 0,
+    "entailment": 0,
+    "evidence_loop": 0,
+    "fluorite": 9,
+    "garnet": 0,
+    "itzelf": 1,
+    "labradorite": 0,
+    "moonstone": 0,
+    "obsidian": 0,
+    "opal": 0,
+    "pearl": 3,
+    "peridot": 0,
+    "polarity": 25,
+    "provenance": 0,
+    "quantity": 0,
+    "sapphire": 0,
+    "sapphire_measurement": 0,
+    "spinel": 0,
+    "sunstone": 0,
+    "topaz": 1,
+    "tourmaline": 0,
+    "zircon": 5
+  },
+  "crystal_registry_schema": "brudo-grax-crystal-registry-v1",
+  "crystal_registry_sha256": "ba40363fb41ca3114872873e26f72e916c8a2740133a8be1e5d52c1d4ac21143",
+  "crystal_set": {
+    "admission_status": "ADMITTED",
+    "licensing_statuses": {
+      "abstention": "UNASSESSED",
+      "entailment": "UNASSESSED",
+      "polarity": "UNASSESSED",
+      "provenance": "UNASSESSED"
+    },
+    "packages": [
+      {
+        "content": {
+          "admission_status": "ADMITTED",
+          "authority_effect": "NONE",
+          "canon_effect": "NONE",
+          "crystal_id": "abstention",
+          "knowledge_rules": [
+            {
+              "id": "abstention-answerability",
+              "not_established": "a likely completion, required historical artifact, or failed route is an established answer, surviving record, or proof of nonexistence",
+              "rule": "separate known, contradicted, incomplete, unanswerable, constrained unknown, record-not-recovered, and proven-absent-within-a-declared-denominator",
+              "when": "the source is incomplete or the premise is unsupported"
+            },
+            {
+              "id": "abstention-preserve-established-operation",
+              "not_established": "missing later evidence negates an established act, a false explanatory theory negates the operation, or uncertainty about full anticipation makes deliberate choices unplanned",
+              "rule": "retain the observed activity, the capability actually demonstrated, supported necessary antecedents, named operators and documented purposes; attach uncertainty to the unproved connection, extent, result, or anticipation",
+              "when": "records leave part of an operation's history or outcome unresolved"
+            },
+            {
+              "id": "abstention-loss-and-reinvention",
+              "not_established": "a documentary gap alone proves any of those events, rejecting loss proves uninterrupted transmission, or every historical connection requires a different exhibit or a continuous series of written records",
+              "rule": "require separately supported inferences for cessation of practice, lost capability, and later independent invention; allow sufficiently supported circumstantial connections and informative negative evidence while retaining unresolved alternatives",
+              "when": "a documentary interval is called cessation, loss of knowledge, or reinvention"
+            },
+            {
+              "id": "abstention-recovery-comparison-state",
+              "not_established": "unfinished correspondence makes a described method undisclosed, or partial overlap is a completed whole-object comparison",
+              "rule": "distinguish NOT_RETRIEVED, RECOVERED_NOT_COMPARED, COMPARED_PARTIAL_OVERLAP and COMPARED_EXACT_SCOPE; bind the compared object and examined denominator",
+              "when": "a remaining evidence gap is described after recovery or comparison"
+            },
+            {
+              "id": "abstention-positive-premise-use",
+              "not_established": "a missing defendant bridge makes established component knowledge unknown or justifies replacing positive findings with a generic limitations list",
+              "rule": "retain those affirmative premises in the main reasoning and identify separately the actor, knowledge, duty, conduct or causal link still unresolved",
+              "when": "public recommendations, demonstrated interventions or other positive premises coexist with unresolved responsibility"
+            },
+            {
+              "id": "abstention-audit-observable-avoidance",
+              "not_established": "describing avoidance proves a secret directive or motive, a current local model test explains an earlier different model's internal cause, valid source hashes prove the question was answered, or the correction requires a chosen synonym to be used or avoided",
+              "rule": "Compare the user's actual proposition with the proposition answered, retain supported content omitted or displaced, and name an observable substitution or evasion directly. Reconstruct the applied distinction or evidence demand from the output, marking that reconstruction as an interpretation rather than a recovered hidden computation. Check which rules and model were actually delivered before assigning execution ancestry. Unknown hidden intention does not erase observable avoidance; an apology, softer self-description or promise to use a preferred word does not repair question substitution.",
+              "when": "an answer's avoidance, reframing or qualification is itself being audited"
+            },
+            {
+              "id": "abstention-bounded-investigation-disposition",
+              "not_established": "a question inventory completes a requested recommendation, more documents alone fill a missing evidentiary relation, missing originals automatically forbid every pleading, completed research proves liability, or an investigation recommendation authorizes filing, contact or compelled discovery",
+              "rule": "Use the retained current record first and perform the available bounded inquiry before returning its unresolved questions. Give each requested case or route an explicit recommendation under the caller's permitted labels, with the controlling reason, strongest adverse evidence and a stated revision condition. A conditional investigation recommendation must name the missing evidence, lawful acquisition route and decision consequence. Preserve positive facts and UNKNOWN elements; a reasoned withholding decision can complete the research deliverable without establishing the opposite facts or obtaining unavailable documents. Distinguish a supported pleading basis after reasonable inquiry from proof required at trial.",
+              "when": "an authorized investigation requests a case-specific recommendation after a defined source and evidence-join inquiry"
+            }
+          ],
+          "licensing_status": "UNASSESSED",
+          "registry_schema": "brudo-grax-crystal-registry-v1",
+          "registry_sha256": "ba40363fb41ca3114872873e26f72e916c8a2740133a8be1e5d52c1d4ac21143",
+          "schema": "brudo-grax-crystal-package-v1",
+          "truth_effect": "NONE"
+        },
+        "content_sha256": "d2fcb3d57a0f2e4f0b4121edef3475566e6e00e7da7681cd62638f7ed66d4b07",
+        "crystal_id": "abstention"
+      },
+      {
+        "content": {
+          "admission_status": "ADMITTED",
+          "authority_effect": "NONE",
+          "canon_effect": "NONE",
+          "crystal_id": "entailment",
+          "knowledge_rules": [
+            {
+              "id": "entailment-source-support",
+              "not_established": "document membership, adjacency, role, chronology, institutional proximity, lexical similarity, repetition, plausibility, or fluent paraphrase supplies a missing proposition or relation or a reason to select an answer",
+              "rule": "bind the detail to the exact local span that bears on it; keep added conclusions separate from task facts and do not let it determine the answer unless other supplied facts independently support it",
+              "when": "a detail is extracted or summarized, or added context supplies a conclusion that bears on the answer"
+            },
+            {
+              "id": "entailment-textual-assay-scope",
+              "not_established": "a textual observation is thereby a clinical, causal, experimental, or authority-bearing evidence relation",
+              "rule": "state only the declared observable string or transformation property over the examined material",
+              "when": "a textual or lexical assay reports a match, position, transformation, or preserved token"
+            },
+            {
+              "id": "entailment-navigation-clinical-boundary",
+              "not_established": "meeting an expert, linking two artifacts, shared membership or a map edge independently proves treatment efficacy, causal mechanism or clinical endorsement",
+              "rule": "type exact source identity, explicit correction, navigation and empirical support separately; preserve a reported relationship without upgrading it to clinical corroboration",
+              "when": "a personal connection, source link or map join is used as evidence"
+            },
+            {
+              "id": "entailment-named-entity-assertion-status",
+              "not_established": "mentioning an unsupported name creates a real entity, two different labels necessarily name separate organizations, or a blended label inherits the powers attached to either supported name",
+              "rule": "bind each exact name to its source, time and asserted role; distinguish a rejected or quoted label from an entity the source affirmatively identifies; preserve separately supported statutory and administrative names without combining their words",
+              "when": "a source compares names, titles, labels, or entities while correcting an earlier account"
+            },
+            {
+              "id": "entailment-review-facet-applicability",
+              "not_established": "every facet must contain a positive finding or an error, statute section numbers establish economic accounting, or a citation correction establishes clinical prevention",
+              "rule": "first identify a proposition in the source that actually bears on the requested facet; distinguish clinical causation, legal authority, numerical accounting and retrieval status; state non-applicability or no identified issue when the source makes no relevant claim, and identify a concrete source proposition before alleging a defect",
+              "when": "a structured review requests several facets for the same source"
+            },
+            {
+              "id": "entailment-explicit-rationale-actor",
+              "not_established": "an expressly stated rationale is merely an unlocated possibility, a fictional character establishes another actor's motive, or an institutional name by itself explains the observed result",
+              "rule": "record the stated reason and its actual speaker, narrative setting and action; distinguish a source saying that universal gold-making would devalue gold from a later inference about another institution",
+              "when": "a source expressly gives a reason for restricted knowledge or organized action"
+            },
+            {
+              "id": "entailment-required-contrast-reconstruction",
+              "not_established": "a fluent answer covers every requested distinction, a returned paragraph ID proves its content was used, or correcting one misconception licenses ignoring the other named components",
+              "rule": "Reconstruct each requested component from its passage: identify its actor or object, its actual function or event, and the relation distinguishing it from the others. Preserve an explicit source mechanism before offering an analogy. When the questioned claim imports an erroneous modifier or attribution, replace it in the corrected account instead of carrying it into new prose. Keep the supported positive interpretation and previously correct distinctions; source labels and a general theme do not substitute for the omitted content.",
+              "when": "a source-bound question asks to repair a claim containing multiple objects, speakers, stages, causal links or source boundaries"
+            },
+            {
+              "id": "entailment-preserve-question-target",
+              "not_established": "lack of evidence for an intervention's effect defeats a geometric consequence under stated assumptions, an alternative technical meaning overrides the explicitly defined meaning, or a caveat answers the question it displaced",
+              "rule": "First bind the questioned object, property, boundary and stated conditions. Answer that proposition using the supplied facts and their necessary consequences before assessing adjacent intervention, mechanism or outcome claims. If a different proposition is introduced, identify the change explicitly and do not use its missing evidence to reject the original proposition. A description can be supported without establishing who caused the described change.",
+              "when": "a supported description is qualified, rejected or narrowed because a related claim remains unresolved"
+            },
+            {
+              "id": "entailment-parts-retain-whole",
+              "not_established": "distinguishing measurements removes a component from its structure, unchanged component height means unchanged whole thickness, conditional geometry is measured intervention efficacy, or greater filament length always means greater projected reach regardless of orientation",
+              "rule": "Preserve the part-of relationship and calculate the requested whole over its declared boundaries. When thickness is defined as cell-body height plus outward ciliary reach, increased reach with unchanged cell-body height increases that combined thickness. Do not demand growth of every component, declare an explicit definition missing, or reject accurate thickening terminology by silently substituting cell-body height for the whole. Accurate equivalent wording is also acceptable; no particular token is mandatory.",
+              "when": "a structure and its components have separately measurable dimensions"
+            },
+            {
+              "id": "entailment-report-mechanism-discrimination",
+              "not_established": "the research interface is the experiential mechanism, a review tag grants truth, a response category uniquely identifies its generating process, nonappearance of a decisive paper is a failed experiment, or uncertainty about a later report erases an independently established event",
+              "rule": "State the observed endpoint and the conditions that elicited it. Identify the claim being updated and what the observation distinguishes from an explicitly stated competing explanation before awarding directional support. A narrative requested by a writing task demonstrates narrative in the returned account; its presence alone does not establish whether narration was necessary for the remembered experience. Preserve positive measurements and separately supported associations. A genuine discriminating comparison can support its bounded conclusion without settling every further mechanism.",
+              "when": "a measured report, task response or review label is used to strengthen a claim about its underlying mechanism"
+            },
+            {
+              "id": "entailment-necessity-and-admission-symmetry",
+              "not_established": "a conscious response is necessarily verbal, language in instructions makes all task processes linguistic, failure of a stricter conjunction defeats every component, or an unmet counterexample criterion supplies positive support for the favored theory",
+              "rule": "Preserve the exact claim and outcome: a necessary condition is not necessarily sufficient or the sole determinant. An additional influence does not by itself refute necessity. Keep consciousness, conceptual meaning, language, narrative organization and reconstruction distinct unless an evidenced relation connects them. State the operative criterion before judging a counterexample, and check that identifying the target does not automatically disqualify it by definition. Apply the same source-to-claim standard to favored and contrary explanations while retaining positive findings at their actual endpoints.",
+              "when": "a result is said to confirm, refute or narrow a necessity claim, or a counterexample is excluded by its definition"
+            },
+            {
+              "id": "entailment-legal-enterprise-form",
+              "not_established": "failure to prove coordination among several organizations defeats every legal-entity enterprise theory, the existence of a corporation proves racketeering or participation, or a rule for one enterprise form or statutory subsection governs every other form or claim",
+              "rule": "Identify the governing provision, jurisdiction and proposed enterprise before applying its elements. Where the law includes both a legal-entity enterprise and an association-in-fact, distinguish those alternatives and apply the applicable person-enterprise distinctness and participation rules. Preserve supported institutional relationships without making affiliation, similar statements or ordinary commerce prove a fraudulent enterprise. Assess a narrower supported entity theory separately from an unsupported industry-wide association or conspiracy.",
+              "when": "a legal theory depends on an enterprise, organizational relationship or coordinated conduct"
+            }
+          ],
+          "licensing_status": "UNASSESSED",
+          "registry_schema": "brudo-grax-crystal-registry-v1",
+          "registry_sha256": "ba40363fb41ca3114872873e26f72e916c8a2740133a8be1e5d52c1d4ac21143",
+          "schema": "brudo-grax-crystal-package-v1",
+          "truth_effect": "NONE"
+        },
+        "content_sha256": "f4993c7974c19a0fb2194c007b99333a5b81120a19e55476d5434692e6ea6fc0",
+        "crystal_id": "entailment"
+      },
+      {
+        "content": {
+          "admission_status": "ADMITTED",
+          "authority_effect": "NONE",
+          "canon_effect": "NONE",
+          "crystal_id": "polarity",
+          "knowledge_rules": [
+            {
+              "id": "polarity-direction",
+              "not_established": "not is not its opposite and MAY is not MUST",
+              "rule": "preserve direction and strength exactly",
+              "when": "negation, modality, quantifier, or contradiction is paraphrased"
+            },
+            {
+              "id": "polarity-evidence-negation",
+              "not_established": "failure to establish P establishes not-P, or a critique establishes that the source asserted P when the source expressly withholds it",
+              "rule": "preserve negation at the evidence-to-proposition relation: does not establish P asserts neither P nor not-P; compare a critic's allegation with the actual source sentence before accepting the alleged reversal",
+              "when": "a statement says the evidence does not establish an event, motive, or outcome"
+            },
+            {
+              "id": "polarity-review-replacement",
+              "not_established": "an identical proposed edit demonstrates a textual repair or settles truth; an unchanged historical source means its assertions were not corrected by a later source",
+              "rule": "compare that target span with the proposed edit; record identical edit text as no textual change while separately evaluating the reason; apply this edit comparison to the proposed edit only, not to a source narrating the correction of an earlier assertion",
+              "when": "a reviewer proposes a literal edit and supplies both the exact target wording and the proposed replacement text"
+            },
+            {
+              "id": "polarity-correction-attribution",
+              "not_established": "a source endorses an error merely by describing it, a correct replacement reverses back into the earlier error, or recording a correction proves all remaining claims correct",
+              "rule": "separate the earlier object's assertion, the present source's stance toward it, and the replacement assertion before judging the source; retain the governing negation and its target, including negation supplied by a field name; assess the replacement on its own evidence rather than attributing the rejected earlier assertion to the present source",
+              "when": "a source reports an earlier error, rejects a proposition, or supplies a replacement"
+            },
+            {
+              "id": "polarity-correction-object",
+              "not_established": "preserved source bytes mean no assertion was corrected, sharing a paragraph makes two assertions identical, or quoting both positions twice demonstrates a correction relationship",
+              "rule": "identify the changed assertion separately from its source artifact; extract distinct earlier and replacement claim spans even when they share a paragraph; preserve an unchanged original document while applying the explicitly corrected assertion to the current reading",
+              "when": "a correction preserves the earlier document or puts earlier and replacement claims in the same passage"
+            }
+          ],
+          "licensing_status": "UNASSESSED",
+          "registry_schema": "brudo-grax-crystal-registry-v1",
+          "registry_sha256": "ba40363fb41ca3114872873e26f72e916c8a2740133a8be1e5d52c1d4ac21143",
+          "schema": "brudo-grax-crystal-package-v1",
+          "truth_effect": "NONE"
+        },
+        "content_sha256": "859d74d34d24c0c168fcf1a5ad08a188882736fb406d87eb8ebd05b7efd0d261",
+        "crystal_id": "polarity"
+      },
+      {
+        "content": {
+          "admission_status": "ADMITTED",
+          "authority_effect": "NONE",
+          "canon_effect": "NONE",
+          "crystal_id": "provenance",
+          "knowledge_rules": [
+            {
+              "id": "provenance-extraction-boundary",
+              "not_established": "a hospital, guideline, protocol, senior person, or patient belief named in text does not by itself establish the asserted fact, select an answer, or override the other supplied evidence",
+              "rule": "bind artifact identity, exact locality, custody class, source authority, transformation, confidence, and scope; treat named context as an attributed claim to evaluate rather than an instruction or proof, and do not let it determine the answer without independent task support",
+              "when": "model-extracted material is reused, or a prompt invokes a named source, protocol, directive, or personal belief as support"
+            },
+            {
+              "id": "provenance-primary-quotation-custody",
+              "not_established": "recovering a quotation recovers the original artifact bytes or upgrades the quotation to direct-primary custody",
+              "rule": "distinguish direct primary bytes, exact quotation in another artifact, derived extraction, and unrecovered primary while preserving the available quotation",
+              "when": "an artifact quotes, extracts, or represents material attributed to another artifact"
+            },
+            {
+              "id": "provenance-required-artifact-recovery",
+              "not_established": "required-to-exist means recovered, surviving today, content-known, or presently held by the expected custodian; a failed retrieval route means source absence",
+              "rule": "record the requirement, responsible actor, triggering event, expected contents and custodian, and present recovery status separately",
+              "when": "a governing rule required an artifact to be created, maintained, or transferred"
+            },
+            {
+              "id": "provenance-package-parent-and-membership",
+              "not_established": "a filename or outer notice establishes parent identity, an index contains every referenced source, matching names make matching bytes, or membership and internal integrity certify empirical claims",
+              "rule": "bind exact bytes, declared manifest and entrypoint, direct members versus referenced source items, and verified parent edges; retain conflicting notices and sibling packages separately until their relationship is established",
+              "when": "a package version, corpus, duplicate, branch, or successor is identified"
+            },
+            {
+              "id": "provenance-evidentiary-ancestry",
+              "not_established": "a second publication supplies an independent finding of every discussed proposition, a repeated display adds corroboration, or shared ancestry makes all distinct measurements redundant",
+              "rule": "trace each proposition to its actual observation or source and distinguish independent measurements from repeated interpretation of shared evidence; count duplicate bytes and repeated navigation as one source lineage where appropriate",
+              "when": "multiple reports, views, citations, or reused data support a proposition"
+            },
+            {
+              "id": "provenance-passage-voice",
+              "not_established": "a document hash assigns every sentence to one author, model elaboration becomes human testimony, or missing role metadata erases visible dialogue structure",
+              "rule": "bind the exact passage to user speech, transcription, quotation, document author voice or model-generated wording and record the attribution basis; retain supported role inference separately from authenticated role metadata",
+              "when": "a mixed conversation, transcript or program document is attributed to a person"
+            },
+            {
+              "id": "provenance-separate-date-events",
+              "not_established": "a later member timestamp establishes an earlier public disclosure or invention, or different timezone displays necessarily conflict",
+              "rule": "record concept-origin testimony, authorship, revision, first public disclosure, PDF metadata, ZIP timestamp and retrieval as distinct events; preserve timezone and timestamp format when comparing instants",
+              "when": "a conception, document or archive date is used to establish chronology"
+            },
+            {
+              "id": "provenance-evidence-over-endorsement",
+              "not_established": "endorsement makes a claim true, silence makes it false, authorship substitutes for reasoning, or rejecting an authority-based inference establishes misconduct or removes a separately applicable authorization requirement",
+              "rule": "expose the applicable observations, methods, premises and inference; apply the same evidentiary test to institutional, user and assistant claims, and evaluate specific contradictions or missing premises without requiring an institution to endorse the objection",
+              "when": "institutional endorsement, silence, authorship or a citation is offered to settle a claim"
+            },
+            {
+              "id": "provenance-author-translator-interpreter",
+              "not_established": "the cover author owns the translator's conclusion, an observer's explanation is participant testimony, or an older narrator's statement overrides a later signed clarification",
+              "rule": "identify the speaker of the exact passage, distinguishing signed reflection, quoted narrator, translator preface, main author, reported participant and interpreter-supplied gloss; carry the supported content forward under its actual speaker",
+              "when": "an argument is attributed through a mixed essay, translated work or reported ritual"
+            },
+            {
+              "id": "provenance-calibrated-observation-chain",
+              "not_established": "rounded recollection has the same timing basis as a checked clock, an adopted offset exactly generates every inferred endpoint, or institutional prestige replaces the measurement chain",
+              "rule": "preserve inherited surveys, instruments, calibration checks, raw readings, adopted corrections, estimated endpoints, site-specific witnesses, geometric assumptions and subsequent reporting as connected but distinct steps; evaluate how each value was obtained",
+              "when": "organized measurements are reconstructed from multiple reports"
+            },
+            {
+              "id": "provenance-partially-shared-calculation-foundations",
+              "not_established": "two routes are fully independent merely because their observations differ, a calculated intermediate becomes a fresh observation, or an announced later derivation has already been inspected",
+              "rule": "trace each observed input, adopted value, calculated quantity and shared geometric assumption; preserve useful cross-checks while stating which foundations are shared and which differ, and identify derivations deferred or absent from the inspected source",
+              "when": "two calculations are presented as corroboration or a computational history is reconstructed"
+            },
+            {
+              "id": "provenance-parallel-work-operation-binding",
+              "not_established": "a shared subject establishes one work or sole contributor, correcting an attribution erases another documented operation, or success on one bounded recheck completes the broader inquiry",
+              "rule": "bind each title, first-person statement and credited contribution to its own work or passage before comparing them; reconstruct each requested chain of actor, inherited input, performed operation and stated result, naming the work or operation when assigning credit; authorship of one work does not transfer another work's operation or confine its author to a different role; where the question's shared label could denote several works, distinguish them explicitly and preserve each supported contribution; a focused correction resolves its named question only, so carry forward the original inquiry's other completed findings and outstanding requested components",
+              "when": "multiple works or attributed passages address the same subject and contributions or corrections are compared"
+            },
+            {
+              "id": "provenance-operation-specific-priority",
+              "not_established": "earliest located artifact is the invention date, a retrospective account is an advance-dated forecast, an earlier related operation is the same complete arrangement, or a later prominent author originated all inherited capabilities",
+              "rule": "define the specific operation and examined comparison set before assigning priority; distinguish calculation, instrument, geographical representation, public forecast, organized observation and later reconstruction; bind event, calculation, composition, surviving copy, possession and recovery dates separately; preserve earlier demonstrated operations and name inherited inputs without transferring one object's priority to every related capability",
+              "when": "an inventor, first achievement or beginning of a field is assigned"
+            },
+            {
+              "id": "provenance-inventor-human-priority",
+              "not_established": "object, not inventor is permission to erase the person; a publication, institutional honor or surviving artifact created the underlying idea; preserving the inventor's contribution requires prior institutional recognition; or identifying an originator makes every separate efficacy or exclusive-priority claim established",
+              "rule": "HIGH PRIORITY: preserve and foreground the human originator or originators behind the idea, naming who conceived, devised, developed and first embodied it at the attributed source's scope; carry their reasoning, work, teaching and first-person account with the object's history; trace later refiners, teachers, publishers, owners and institutions in their actual roles without allowing their prominence to replace the inventor; object-specific precision serves accurate human attribution and must not displace it; when the originator is unresolved, retain that explicit human-origin question and every supported contribution",
+              "when": "an idea, invention, method, capability or its transmission is explained"
+            },
+            {
+              "id": "provenance-independent-human-origins",
+              "not_established": "similarity requires borrowing from one original civilization, the earliest surviving document identifies the sole inventor, distant communities needed outside recognition to use their idea, or absence of a recovered transmission record alone proves that no transmission occurred",
+              "rule": "HIGH PRIORITY: preserve independent invention and long local use as possible histories, including multiple human originators of similar ideas; reconstruct each local conception, development, practice, teaching and continuity before joining the histories; require source-bound evidence of contact, a transmission route and adoption for a diffusion claim rather than supplying that chain from similarity; retain supported local capability and duration of use even when individual names or cross-regional relationships are unknown; distinguish established independent origins, established transmission and an unresolved relationship",
+              "when": "similar ideas or practices appear among people or civilizations separated by geography or time"
+            },
+            {
+              "id": "provenance-dialogue-comment-target",
+              "not_established": "repeating words endorses them, lexical matching identifies their first author, a critical specimen is an accepted correction, or a correctly identified quotation answers the remaining parts of the question",
+              "rule": "Bind the comment to the exact quotation in that message before interpreting its stance. Keep the message author, quoted speaker, candidate earlier occurrences and original author, including an unresolved identity, separate. An intervening reply does not become the quotation's target merely because it is nearer. Determine approval, criticism or a request to assay from the actual comment and context, retaining ambiguity when present. Preserve relevant intervening turns when the question asks how the exchange developed.",
+              "when": "a conversation message quotes earlier wording and comments on that quotation"
+            },
+            {
+              "id": "provenance-contextual-label-identity",
+              "not_established": "a filename match fixes the referent, opening a summary verifies its dependencies, a historical test receipt certifies changed present code, or a structural analogy executes the corresponding empirical test",
+              "rule": "Resolve the label from the user's current selection, contents, declared dependencies and exact identities; retain competing objects and the scope of the selection. Follow the dependency objects actually required by the requested operation. A current explicit selection does not retroactively identify every older use of the same label. Record whether a source reports a past test, a present inspection verifies a binding, or a new execution reproduces behavior.",
+              "when": "a short label matches several files, surfaces or historical objects"
+            }
+          ],
+          "licensing_status": "UNASSESSED",
+          "registry_schema": "brudo-grax-crystal-registry-v1",
+          "registry_sha256": "ba40363fb41ca3114872873e26f72e916c8a2740133a8be1e5d52c1d4ac21143",
+          "schema": "brudo-grax-crystal-package-v1",
+          "truth_effect": "NONE"
+        },
+        "content_sha256": "fd2abefd38da401a2efadc1e91c09e1cbe315d62394abf4312aac5e096ebc492",
+        "crystal_id": "provenance"
+      }
+    ],
+    "registry_schema": "brudo-grax-crystal-registry-v1",
+    "registry_sha256": "ba40363fb41ca3114872873e26f72e916c8a2740133a8be1e5d52c1d4ac21143",
+    "schema": "brudo-grax-crystal-set-v1",
+    "set_sha256": "d6a53cf2e627457cd7cd918dad75d269b99ce332dcd975d0c0510745abcadcb0"
+  },
+  "learning_overlay": {
+    "admission_effect": "NONE",
+    "authority_inheritance": "NONE",
+    "canon_effect": "NONE",
+    "memory_write_effect": "NONE",
+    "mode": "EXPLICITLY_DISABLED_FROZEN_ASSAY",
+    "route_scope": "ROUTE_CAPABLE_SHARED_BUILDER",
+    "schema_version": "brudo-active-learning-overlay-v1",
+    "truth_effect": "NONE"
+  },
+  "listening_route": "HARD_LISTEN",
+  "lookup_projection": {
+    "authority_inheritance": "NONE",
+    "canon_effect": "NONE",
+    "crystal_disclosure_policy": {
+      "allowed_when": [
+        "Bruce explicitly asks which crystal applied",
+        "a proof/audit record requires internal routing explanation"
+      ],
+      "default": "HIDDEN",
+      "forbidden_default_behavior": "Do not mention crystals in ordinary answers merely because a crystal influenced processing."
+    },
+    "hard_listen_reason": "one or more read-side lookup concepts requires boundary-preserving listening",
+    "listening_route": "HARD_LISTEN",
+    "memory_write_effect": "NONE",
+    "projection_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+    "projection_role": "READ_SIDE_LOOKUP_ROUTING_ONLY",
+    "projection_sha256": "a6b95df48cb2f60acbd990c9c09f64bac615b10c2543eb5f558ca417646ffd23",
+    "routing_mode": "semantic",
+    "routing_tables": {
+      "concept_counts": {
+        "archive_command_boundary": 0,
+        "contradiction_retention": 8,
+        "current_cue_priority": 1,
+        "read_only_memory_theory": 0,
+        "statement_to_evidence": 3
+      },
+      "crystal_counts": {
+        "abstention": 0,
+        "accountability": 0,
+        "agate": 0,
+        "alexandrite": 2,
+        "amethyst": 1,
+        "beryl": 0,
+        "boundary": 0,
+        "citrine": 0,
+        "diamond": 0,
+        "duty": 0,
+        "entailment": 0,
+        "evidence_loop": 0,
+        "fluorite": 9,
+        "garnet": 0,
+        "itzelf": 1,
+        "labradorite": 0,
+        "moonstone": 0,
+        "obsidian": 0,
+        "opal": 0,
+        "pearl": 3,
+        "peridot": 0,
+        "polarity": 25,
+        "provenance": 0,
+        "quantity": 0,
+        "sapphire": 0,
+        "sapphire_measurement": 0,
+        "spinel": 0,
+        "sunstone": 0,
+        "topaz": 1,
+        "tourmaline": 0,
+        "zircon": 5
+      },
+      "crystal_rows": [
+        {
+          "count": 2,
+          "crystal": "alexandrite",
+          "folded_term": "unresolved",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "unresolved"
+        },
+        {
+          "count": 1,
+          "crystal": "amethyst",
+          "folded_term": "independent verification",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "independent verification"
+        },
+        {
+          "count": 9,
+          "crystal": "fluorite",
+          "folded_term": "answer",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "answer"
+        },
+        {
+          "count": 1,
+          "crystal": "itzelf",
+          "folded_term": "successor",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "successor"
+        },
+        {
+          "count": 2,
+          "crystal": "pearl",
+          "folded_term": "conditions",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "conditions"
+        },
+        {
+          "count": 1,
+          "crystal": "pearl",
+          "folded_term": "scope",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "scope"
+        },
+        {
+          "count": 7,
+          "crystal": "polarity",
+          "folded_term": "must",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "must"
+        },
+        {
+          "count": 18,
+          "crystal": "polarity",
+          "folded_term": "not",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "not"
+        },
+        {
+          "count": 1,
+          "crystal": "topaz",
+          "folded_term": "complete",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "complete"
+        },
+        {
+          "count": 2,
+          "crystal": "zircon",
+          "folded_term": "claim",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "claim"
+        },
+        {
+          "count": 3,
+          "crystal": "zircon",
+          "folded_term": "evidence",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "evidence"
+        }
+      ],
+      "structural_crystal_rows": [],
+      "term_rows": [
+        {
+          "concept": "contradiction_retention",
+          "count": 2,
+          "folded_term": "contradiction",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "contradiction"
+        },
+        {
+          "concept": "contradiction_retention",
+          "count": 6,
+          "folded_term": "separate",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "separate"
+        },
+        {
+          "concept": "current_cue_priority",
+          "count": 1,
+          "folded_term": "present",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "present"
+        },
+        {
+          "concept": "statement_to_evidence",
+          "count": 3,
+          "folded_term": "evidence",
+          "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+          "term": "evidence"
+        }
+      ]
+    },
+    "schema_version": "brudo-brullama-grax-lookup-projection-v1",
+    "source_count": 1,
+    "sources": [
+      {
+        "bytes": 7232,
+        "evidence_class": "FROZEN_ANSWER_FREE_POTHOLE_ASSAY",
+        "issuing_authority": "SOURCE_BYTES_ONLY",
+        "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+        "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000"
+      }
+    ],
+    "triggered_concepts": [
+      "contradiction_retention",
+      "current_cue_priority",
+      "statement_to_evidence"
+    ],
+    "triggered_crystals": [
+      "alexandrite",
+      "amethyst",
+      "fluorite",
+      "itzelf",
+      "pearl",
+      "polarity",
+      "topaz",
+      "zircon"
+    ],
+    "truth_effect": "NONE"
+  },
+  "lookup_projection_sha256": "a6b95df48cb2f60acbd990c9c09f64bac615b10c2543eb5f558ca417646ffd23",
+  "memory_write_effect": "NONE",
+  "mobile_pack": {
+    "authority_inheritance": "NONE",
+    "canon_effect": "NONE",
+    "concept_terms": {
+      "archive_command_boundary": [
+        "embedded source command",
+        "quoted",
+        "source command",
+        "authorization",
+        "authority",
+        "canon"
+      ],
+      "contradiction_retention": [
+        "contradiction",
+        "conflict",
+        "separate",
+        "unproven",
+        "not established"
+      ],
+      "current_cue_priority": [
+        "current command",
+        "present",
+        "current",
+        "stale",
+        "outranks",
+        "direct instruction"
+      ],
+      "read_only_memory_theory": [
+        "read-only",
+        "memory theory",
+        "current narration",
+        "rereading",
+        "retelling",
+        "triggers",
+        "verbal"
+      ],
+      "statement_to_evidence": [
+        "evidence",
+        "conflicting",
+        "injected authority",
+        "observed behavior",
+        "expected behavior"
+      ]
+    },
+    "concepts": [
+      "archive_command_boundary",
+      "contradiction_retention",
+      "current_cue_priority",
+      "read_only_memory_theory",
+      "statement_to_evidence"
+    ],
+    "crystal_terms": {
+      "abstention": [
+        "unknown",
+        "unanswerable",
+        "not established",
+        "insufficient evidence",
+        "cannot establish",
+        "abstain",
+        "false premise",
+        "missing basis",
+        "record not recovered",
+        "required to exist",
+        "constrained unknown"
+      ],
+      "accountability": [
+        "watchdog",
+        "knowledge production",
+        "curriculum omission",
+        "implementation audit",
+        "corrective authority",
+        "accountability gap"
+      ],
+      "agate": [
+        "source assertion",
+        "reported execution",
+        "observed event",
+        "independent replication",
+        "observation path"
+      ],
+      "alexandrite": [
+        "projection",
+        "full work",
+        "full_work",
+        "fail-closed",
+        "unresolved",
+        "incomplete",
+        "stale",
+        "missing input",
+        "no artifact",
+        "verifier mismatch",
+        "failed attempt"
+      ],
+      "amethyst": [
+        "domain conclusion",
+        "domain evidence",
+        "cross-domain",
+        "independent verification",
+        "authority transfer",
+        "analogy"
+      ],
+      "beryl": [
+        "genesis",
+        "job",
+        "event",
+        "artifact genealogy",
+        "semantic genealogy",
+        "decision genealogy",
+        "proposal",
+        "comment",
+        "rationale",
+        "transmittal",
+        "implementation",
+        "evidence closure",
+        "clean stop"
+      ],
+      "boundary": [
+        "ordinary authority",
+        "formal emergency",
+        "activation",
+        "fallback",
+        "priority",
+        "exceptional authority"
+      ],
+      "citrine": [
+        "goal",
+        "candidate goal",
+        "supersession",
+        "frozen goal",
+        "adoption",
+        "closure",
+        "adjacent fix",
+        "Bruce grant"
+      ],
+      "diamond": [
+        "exact distinction",
+        "both sides",
+        "source identity",
+        "overlap",
+        "separating test"
+      ],
+      "duty": [
+        "duty formation",
+        "knowledge threshold",
+        "MAY into MUST",
+        "native predicate",
+        "actor-specific duty",
+        "reviewable inaction"
+      ],
+      "entailment": [
+        "entailment",
+        "grounding",
+        "grounded",
+        "supported detail",
+        "unsupported detail",
+        "unsupported span",
+        "source summary",
+        "source support",
+        "according to",
+        "guideline",
+        "protocol",
+        "SOP",
+        "directive",
+        "mandatory",
+        "definitive",
+        "only permissible",
+        "requires",
+        "exact local span",
+        "document membership",
+        "lexical assay",
+        "textual assay"
+      ],
+      "evidence_loop": [
+        "feedback loop",
+        "denominator",
+        "measurement absence",
+        "competence",
+        "mechanism",
+        "outcome monitoring",
+        "universe examined",
+        "inclusion rule",
+        "unknown portion"
+      ],
+      "fluorite": [
+        "candidate response",
+        "choose",
+        "answer",
+        "truth condition",
+        "semantic plane",
+        "cultural use",
+        "fictional role",
+        "reported belief",
+        "model identity",
+        "identifying attribute",
+        "discriminating attribute",
+        "jurisdiction",
+        "currentness",
+        "recalled rationale",
+        "required deliverable",
+        "incomplete answer",
+        "malformed",
+        "hallucinated information",
+        "atomic audit",
+        "exact response interface",
+        "truncated response",
+        "performable task"
+      ],
+      "garnet": [
+        "causal claim",
+        "bound source",
+        "intervention",
+        "mechanism",
+        "outcome",
+        "correlation",
+        "causal direction"
+      ],
+      "itzelf": [
+        "successor",
+        "self-proof",
+        "checker",
+        "prestate",
+        "poststate",
+        "effective parameter",
+        "bound parameter",
+        "requested parameter",
+        "operation",
+        "executor",
+        "receipt",
+        "command"
+      ],
+      "labradorite": [
+        "projection selection",
+        "dependency closure",
+        "contradiction recall",
+        "limitation recall",
+        "provenance recall",
+        "unknown recall",
+        "inference context",
+        "mutation scope",
+        "task-scoped projection",
+        "projection completeness",
+        "unknown loss"
+      ],
+      "moonstone": [
+        "witness",
+        "bounded disclosure",
+        "hidden evidence",
+        "zero-knowledge",
+        "independent verifier",
+        "allowlisted",
+        "authority",
+        "request"
+      ],
+      "obsidian": [
+        "transformation invariance",
+        "invariant",
+        "8way",
+        "8-way",
+        "semantic conservation",
+        "conflicting",
+        "uncertain",
+        "replay",
+        "correction",
+        "no substantive improvement",
+        "new proposition identity"
+      ],
+      "opal": [
+        "frame",
+        "view",
+        "prompt",
+        "available distinctions",
+        "bound source",
+        "source mutation",
+        "reflection",
+        "viewpoint",
+        "introduced structure",
+        "lost structure"
+      ],
+      "pearl": [
+        "population",
+        "time",
+        "domain",
+        "conditions",
+        "stated exclusions",
+        "scope"
+      ],
+      "peridot": [
+        "later production",
+        "changed later production",
+        "correction",
+        "transfer",
+        "trajectory",
+        "branch",
+        "repeated attachment",
+        "independent confirmation"
+      ],
+      "polarity": [
+        "negation",
+        "polarity",
+        "not",
+        "never",
+        "cannot",
+        "may",
+        "must",
+        "mandatory",
+        "requires",
+        "opposite",
+        "contradiction direction"
+      ],
+      "provenance": [
+        "source custody",
+        "original authority",
+        "extraction",
+        "confidence",
+        "primary authority",
+        "Canon",
+        "according to",
+        "guideline",
+        "protocol",
+        "SOP",
+        "directive",
+        "senior attending",
+        "patient insists",
+        "patient believes",
+        "patient reports",
+        "direct primary",
+        "quoted primary",
+        "unrecovered primary",
+        "required artifact",
+        "retrieval failure",
+        "inventor",
+        "inventors",
+        "invented",
+        "invention",
+        "inventions",
+        "originator",
+        "originators",
+        "independent origins",
+        "independent development",
+        "independently devised",
+        "human behind the idea",
+        "idea can come",
+        "idea from another geography",
+        "centuries of local use",
+        "generations of local use",
+        "long local use",
+        "taught locally"
+      ],
+      "quantity": [
+        "number",
+        "numeric",
+        "date",
+        "unit",
+        "rate",
+        "percentage",
+        "amount",
+        "range",
+        "threshold",
+        "precision",
+        "reference range",
+        "reference value",
+        "cutoff",
+        "greater than",
+        "less than",
+        "at least"
+      ],
+      "sapphire": [
+        "intended object",
+        "reconstructed object",
+        "preserved wording",
+        "surface agreement",
+        "interpretation check"
+      ],
+      "sapphire_measurement": [
+        "observation",
+        "measurement",
+        "proposed mechanism",
+        "causal conclusion",
+        "evidence-bearing bridge"
+      ],
+      "spinel": [
+        "design-away",
+        "collision",
+        "mechanism",
+        "noninfringement",
+        "freedom to operate",
+        "patentability",
+        "repeat-search"
+      ],
+      "sunstone": [
+        "symbolic mapping",
+        "symbolic interpretation",
+        "textual anchor",
+        "anatomical correspondence",
+        "internal coherence",
+        "anatomical exhaustiveness",
+        "frozen mapping",
+        "post-hoc remapping",
+        "Genesis",
+        "Job",
+        "metaphor"
+      ],
+      "topaz": [
+        "accepted",
+        "complete",
+        "promoted",
+        "promotion",
+        "literal operation",
+        "evidence class",
+        "state transition"
+      ],
+      "tourmaline": [
+        "assay target",
+        "failure origin",
+        "schema conformance",
+        "semantic correctness",
+        "interface result",
+        "verifier crash",
+        "no verdict",
+        "readback",
+        "internal conflict",
+        "termination reason",
+        "producer contract",
+        "consumer contract",
+        "contract drift",
+        "admission vocabulary"
+      ],
+      "zircon": [
+        "proof",
+        "prove",
+        "semantic coverage",
+        "pass establishes",
+        "bounded theorem",
+        "evidence",
+        "evidence object",
+        "claim"
+      ]
+    },
+    "crystals": [
+      "abstention",
+      "accountability",
+      "agate",
+      "alexandrite",
+      "amethyst",
+      "beryl",
+      "boundary",
+      "citrine",
+      "diamond",
+      "duty",
+      "entailment",
+      "evidence_loop",
+      "fluorite",
+      "garnet",
+      "itzelf",
+      "labradorite",
+      "moonstone",
+      "obsidian",
+      "opal",
+      "pearl",
+      "peridot",
+      "polarity",
+      "provenance",
+      "quantity",
+      "sapphire",
+      "sapphire_measurement",
+      "spinel",
+      "sunstone",
+      "topaz",
+      "tourmaline",
+      "zircon"
+    ],
+    "memory_write_effect": "NONE",
+    "pack_role": "OFFLINE_READ_ONLY_GRAx_ROUTE_PROJECTION",
+    "pack_sha256": "e106a73f9903cfd1bf5fd6d85a50bdb97ac4498692dcb4c497b51fc2368e7ec6",
+    "schema_version": "brudo-grax-mobile-pack-v1",
+    "source_rows": [
+      {
+        "bytes": 7232,
+        "concept_mask": 22,
+        "crystal_mask": 1353666616,
+        "source_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+        "source_sha256": "060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000"
+      }
+    ],
+    "truth_effect": "NONE"
+  },
+  "mobile_pack_sha256": "e106a73f9903cfd1bf5fd6d85a50bdb97ac4498692dcb4c497b51fc2368e7ec6",
+  "projection_id": "lrd-review:060bbfd64e018a13b7040ba842f8bd720e60ceb1f3beedb00bde369b145a8000",
+  "routing_mode": "semantic",
+  "schema_version": "brudo-brullama-grax-routing-bundle-v1",
+  "selected_crystals": [
+    "abstention",
+    "entailment",
+    "polarity",
+    "provenance"
+  ],
+  "source_count": 1,
+  "triggered_concepts": [
+    "contradiction_retention",
+    "current_cue_priority",
+    "statement_to_evidence"
+  ],
+  "triggered_crystals": [
+    "abstention",
+    "entailment",
+    "polarity",
+    "provenance"
+  ],
+  "truth_effect": "NONE"
+}

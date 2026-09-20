@@ -1,0 +1,3 @@
+BRUDO_BRULLAMA_HEALTH_URL="http://127.0.0.1:11435" \
+		/Users/bnw/bin/brudo/scripts/brullama-daemon.sh healthcheck
+brullama-daemon brullama healthcheck OK: http://127.0.0.1:11435/api/brullama

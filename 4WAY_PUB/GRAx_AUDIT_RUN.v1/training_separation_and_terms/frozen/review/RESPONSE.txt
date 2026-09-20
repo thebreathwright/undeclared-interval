@@ -1,0 +1,11 @@
+{
+  "consequence_class": "BOUNDED_OUTPUT",
+  "unit_id": "training_separation_and_terms",
+  "question_sha256": "ab55f5e0b02b6b65aa5f683a2a186c981dba53b22ec3154357b978fa03ef85e2",
+  "answers": {
+    "Q1": {
+      "answer": "The training material (D01_P001) and autism-paper set are separated as the training directory explicitly excludes autism evidence. The $299 and $599 prices (D02_P001) are commercial terms for the training, distinct from autism claims. The r2 integrity finding (D03_P001) addresses package verification separately. No contradictions exist; all elements are scoped distinctly.",
+      "paragraph_ids": ["D01_P001", "D02_P001", "D03_P001"]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "brudo-lrd-document-review-v1",
+  "documents": [
+    {
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/AUTISM_PAPER_REWRITE.v1.md",
+      "sha256": "abcf7dee071d00aec059d26f1190d600eac625f1f96e5158c619c6e74fefbd29",
+      "role": "rewritten_autism_paper"
+    },
+    {
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/README.md",
+      "sha256": "3b7fd828f49898cf394b0da260c887da0cb2e0a16aa35ed14cea02007e7efa9d",
+      "role": "autism_set_scope"
+    },
+    {
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/README.md",
+      "sha256": "f1d32c6f143b4e64f02e96a5102e7bf36a13905dc8c949831e1cd31c70385ffc",
+      "role": "training_set_scope"
+    },
+    {
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/LICENSE_AND_ACCESS.md",
+      "sha256": "0f7297f0d814ba8390011b76c3f78f8826136fef8c1e298b547d153c22004124",
+      "role": "commercial_terms"
+    },
+    {
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/PACKAGE_INTEGRITY_FINDING.v1.md",
+      "sha256": "9860e1a7afa24e7123d70cec304e65baea513949ce25ae4e6a059c323e0368d6",
+      "role": "integrity_disposition"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "autism_evidence_boundary",
+      "question": "Does the autism-paper set retain its important research concepts while avoiding an unsupported feeding-device-to-ASD causal claim? Identify any statement that needs narrower wording, quoting the exact paragraph identifiers.",
+      "documents": [
+        {
+          "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/AUTISM_PAPER_REWRITE.v1.md",
+          "sha256": "abcf7dee071d00aec059d26f1190d600eac625f1f96e5158c619c6e74fefbd29",
+          "role": "rewritten_autism_paper"
+        },
+        {
+          "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/README.md",
+          "sha256": "3b7fd828f49898cf394b0da260c887da0cb2e0a16aa35ed14cea02007e7efa9d",
+          "role": "autism_set_scope"
+        }
+      ]
+    },
+    {
+      "id": "training_separation_and_terms",
+      "question": "Are the training material, the autism-paper set, the stated $299 company price, the stated $599 military or military-support price, and the inherited r2 integrity finding accurately separated? Quote the exact paragraph identifiers that support the answer and identify any contradiction.",
+      "documents": [
+        {
+          "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/README.md",
+          "sha256": "f1d32c6f143b4e64f02e96a5102e7bf36a13905dc8c949831e1cd31c70385ffc",
+          "role": "training_set_scope"
+        },
+        {
+          "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/LICENSE_AND_ACCESS.md",
+          "sha256": "0f7297f0d814ba8390011b76c3f78f8826136fef8c1e298b547d153c22004124",
+          "role": "commercial_terms"
+        },
+        {
+          "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/PACKAGE_INTEGRITY_FINDING.v1.md",
+          "sha256": "9860e1a7afa24e7123d70cec304e65baea513949ce25ae4e6a059c323e0368d6",
+          "role": "integrity_disposition"
+        }
+      ]
+    }
+  ]
+}

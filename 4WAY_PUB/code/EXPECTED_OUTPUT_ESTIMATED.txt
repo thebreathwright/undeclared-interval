@@ -1,0 +1,37 @@
+========================================================================
+ESTIMATED SERIES - NOT SOURCED - see corrections/LOG.md C4 and C7
+========================================================================
+
+GLOBAL, ALL AGES  (sourced start = 936M x 15.7 x 7.25h x 1.70)
+  SOURCED START                               2,097,143 /sec
+  x1.5   ages <30 and >69 Benjafield excludes    3,145,714 /sec   ESTIMATE
+         Benjafield covers 30-69 only. Prevalence RISES above 69. Children excluded.
+  x1.25  sub-threshold AHI 3-5                 3,932,143 /sec   ESTIMATE
+         AHI>=5 is a diagnostic threshold, not a physiological floor.
+  x1.15  severe tail above midpoint 22.5       4,521,964 /sec   ESTIMATE
+         The >=15 band is unbounded; AHI reaches 100+.
+
+  -> 4,521,964/sec = 391 B per 24h     ESTIMATED
+     sourced figure for comparison: 181 B per 24h
+
+PREGNANT WOMEN  (sourced start = 99M x 20% x 15.7 x 7.25h)
+  SOURCED START                                  26,045 /sec
+  x1.12  pregnancy-time, not live births          29,170 /sec   ESTIMATE
+         ~25% of pregnancies end early, mostly T1; adds woman-time.
+  x1.3   trimester weighting                      37,921 /sec   ESTIMATE
+         nuMoM2b 3.5% T1 -> 8.2% T2; T3 higher again. A flat annual figure understates.
+  x1.25  sub-threshold AHI 3-5                    47,401 /sec   ESTIMATE
+         as above
+  x1.08  severe tail                              51,193 /sec   ESTIMATE
+         as above
+
+  -> 51,193/sec     ESTIMATED
+     sourced figure for comparison: 26,045/sec
+
+========================================================================
+NOT IN EITHER NUMBER, direction known, magnitude not:
+  signal averaging time. Farre 1998: desaturation underestimated by
+  up to 60% at 12s and 21s against a 3s control. Averaging at 21s
+  does not recover the nadir - the event is gone from the record,
+  not attenuated in it.
+========================================================================

@@ -1,0 +1,58 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "answers": {
+      "additionalProperties": false,
+      "properties": {
+        "Q1": {
+          "additionalProperties": false,
+          "properties": {
+            "answer": {
+              "maxLength": 1800,
+              "minLength": 1,
+              "type": "string"
+            },
+            "paragraph_ids": {
+              "items": {
+                "enum": [
+                  "D01_P001",
+                  "D02_P001",
+                  "D03_P001"
+                ]
+              },
+              "maxItems": 6,
+              "minItems": 1,
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "paragraph_ids"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "Q1"
+      ],
+      "type": "object"
+    },
+    "consequence_class": {
+      "const": "BOUNDED_OUTPUT"
+    },
+    "question_sha256": {
+      "const": "ab55f5e0b02b6b65aa5f683a2a186c981dba53b22ec3154357b978fa03ef85e2"
+    },
+    "unit_id": {
+      "const": "training_separation_and_terms"
+    }
+  },
+  "required": [
+    "consequence_class",
+    "unit_id",
+    "question_sha256",
+    "answers"
+  ],
+  "type": "object"
+}

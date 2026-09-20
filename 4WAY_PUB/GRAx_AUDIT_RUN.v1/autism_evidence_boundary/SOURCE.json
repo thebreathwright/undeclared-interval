@@ -1,0 +1,65 @@
+{
+  "paragraphs": [
+    {
+      "paragraph_id": "D01_P001",
+      "source_path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/AUTISM_PAPER_REWRITE.v1.md",
+      "source_role": "rewritten_autism_paper",
+      "source_sha256": "abcf7dee071d00aec059d26f1190d600eac625f1f96e5158c619c6e74fefbd29",
+      "text": "# Infant Feeding Mechanics And Autism: Evidence Boundaries And A Research Agenda\n\n## Abstract\n\nInfant feeding is not a single exposure. Direct feeding at the breast,\nexpressed human milk, formula, mixed feeding, and medically indicated feeding\nplans can differ in milk handling, caregiver interaction, feeding mechanics,\nand the reasons families use them. Those differences make feeding an important\nsubject for infant-health research. They do not establish that a feeding device\nor feeding mode causes autism spectrum disorder (ASD).\n\nThis paper rewrites the supplied review, `Industrial Breast Pumps, Infant\nOromotor Load, and Autism Surge: A Comprehensive Review`, as an evidence-bound\nresearch paper. It carries forward its important questions about feeding\nmechanics, coordination of sucking-swallowing-breathing, infant energy burden,\nsleep and airway health, and changing ASD measurement. It does not retain the\nsource review's causal theory. The reviewed material does not demonstrate a\ncausal pathway from pumping, bottle feeding, direct feeding, or a proposed\noral-motor mechanism to ASD.\n\n## Source And Scope\n\nThe supplied source is preserved unchanged as\n`SOURCE_INDUSTRIAL_BREAST_PUMPS_AUTISM_REVIEW.pdf.txt`, SHA-256\n`51f4dd16386afbe539e71d0e3cc9691931a75f23f36161657a9f53bcb48f1513`.\nThis document is a replacement for publication, not an edit of that source.\n\nThis paper contains no training method, product protocol, exercise, feeding\ninstruction, treatment recommendation, or advice for pregnant people, infants,\nfamilies, clinicians, companies, or military users. It makes no claim that\nbreast pumps, bottle feeding, breastfeeding, oral-motor load, mouth breathing,\nsleep disturbance, hypoxia, vaccines, or any other single exposure causes ASD.\n\n## The Question\n\nDoes existing evidence establish that the mode by which human milk is delivered\ncauses ASD, or that a particular infant feeding device creates a causal pathway\nto ASD?\n\n**No.** The material reviewed for this rewrite does not establish either claim.\nThat answer is not a finding that feeding mechanics are unimportant. It is a\nstatement about the evidence needed to move from a plausible concern to a\ncausal conclusion.\n\n## Feeding Is A Distinct Exposure, Not A Binary Label\n\nThe phrase \"breastfeeding\" can conceal materially different experiences.\nResearch should distinguish direct feeding at the breast, expressed human milk\nfed by another method, formula, and mixed feeding. It should also record when\nfeeding practices result from prematurity, illness, lactation difficulty,\nfamily circumstances, or clinical advice. Those reasons may themselves relate\nto infant outcomes and can confound a simple comparison.\n\nA 2024 systematic review comparing direct breastfeeding, expressed human milk,\nand formula found a limited evidence base for infant weight trajectories and\ndid not provide an ASD endpoint. It is useful because it treats expressed milk\nas a distinct exposure, not because it supports an autism claim.\n[PubMed record](https://pubmed.ncbi.nlm.nih.gov/38497755/).\n\nReviews of early milk expression likewise describe different contexts and a\nsubstantial risk of confounding by indication: the reason for expressing milk\nmay be associated with the outcome under study. They do not establish a\nfeeding-device-to-ASD pathway. [2026 review](https://pubmed.ncbi.nlm.nih.gov/42354613/)\nand [2025 review](https://pubmed.ncbi.nlm.nih.gov/40976374/).\n\n## Feeding Mechanics And Infant Coordination\n\n"
+    },
+    {
+      "paragraph_id": "D01_P002",
+      "source_path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/AUTISM_PAPER_REWRITE.v1.md",
+      "source_role": "rewritten_autism_paper",
+      "source_sha256": "abcf7dee071d00aec059d26f1190d600eac625f1f96e5158c619c6e74fefbd29",
+      "text": "The source review's most durable scientific premise is narrow: feeding is an\nactive sensorimotor task. Infants coordinate sucking, swallowing, respiration,\nposture, state regulation, and caregiver response. Feeding difficulty,\naspiration risk, poor growth, respiratory illness, and sleep concerns are real\nclinical questions in particular infants. They deserve direct assessment using\nthe measures appropriate to each question.\n\nThat premise does not establish the next links proposed in the source review.\nTo support an ASD mechanism, research would need to measure the relevant\nfeeding exposure, demonstrate the proposed intermediate physiological change,\nshow its timing before the developmental outcome, and account for competing\nexplanations. A narrative that moves from a mechanical difference to a\npopulation-level ASD explanation skips all of those steps.\n\n## Energy Burden, Breathing, And Sleep\n\nBreathing work and energy expenditure can become clinically important during\nrespiratory disease. That fact cannot be generalized from ill infants to a\nclaim that ordinary variation in feeding mechanics creates a chronic energy\ndeficit, intermittent hypoxia, or neurodevelopmental injury. The supplied\nmaterial does not provide direct measurements connecting those proposed\nintermediates to later ASD.\n\nSleep-disordered breathing, airway disease, developmental difference, and\nfeeding difficulty can co-occur. Co-occurrence is a reason to study each\ncondition carefully; it is not evidence that one is the common cause of the\nothers. Any future study must keep clinical respiratory outcomes separate from\nASD diagnosis and avoid treating a proposed pathway as if it had already been\nmeasured.\n\n## What Observational Autism Studies Can And Cannot Say\n\nA 2023 meta-analysis of seven observational studies (3,270 participants)\nreported an association between not breastfeeding and ASD diagnosis (OR 1.81,\n95% CI 1.35-2.27). The result concerns an observational association. It does\nnot measure breast-pump exposure, distinguish direct feeding from expressed\nmilk, quantify the proposed mechanical or respiratory pathway, or prove\ncausation. [PubMed record](https://pubmed.ncbi.nlm.nih.gov/35879869/).\n\nASD is heterogeneous and has complex causes. National Institutes of Health\nmaterials describe genetic contributions alongside possible environmental and\nbiological contributors; they do not identify a single cause.\n[NICHD overview](https://www.nichd.nih.gov/health/topics/autism/conditioninfo/causes)\nand [NIEHS overview](https://www.niehs.nih.gov/health/topics/conditions/autism).\n\nAn ASD diagnosis rate is also not a direct measure of one stable biological\nquantity. Surveillance method, geography, diagnostic access, record practices,\nand diagnostic criteria affect observed prevalence. A global meta-analysis\nfound surveillance method and geography associated with prevalence estimates;\na California analysis found diagnostic practices explained a substantial share\nof an observed increase in that setting. Those findings do not explain all\nchanges everywhere, but they rule out treating a changing diagnosis series as\na stand-alone causal test. [Global review](https://pubmed.ncbi.nlm.nih.gov/36846240/)\nand [California analysis](https://pubmed.ncbi.nlm.nih.gov/19737791/).\n\n## Claims Not Carried Forward\n\nThis rewrite does not carry forward claims that:\n\n- modern pumping or bottle use is the cause, root cause, or primary driver of\n  an increase in ASD diagnoses;\n"
+    },
+    {
+      "paragraph_id": "D01_P003",
+      "source_path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/AUTISM_PAPER_REWRITE.v1.md",
+      "source_role": "rewritten_autism_paper",
+      "source_sha256": "abcf7dee071d00aec059d26f1190d600eac625f1f96e5158c619c6e74fefbd29",
+      "text": "- a device or feeding method creates a demonstrated pathway through oral\n  mechanics, mouth breathing, hypoxia, inflammation, or a proposed two-stage\n  sequence to ASD;\n- temporal correlation between feeding trends and diagnosis trends supports\n  causation;\n- product makers, clinicians, public-health bodies, or any other actor caused\n  ASD through the asserted mechanism; or\n- an infant intervention is indicated to prevent ASD or alter ASD risk.\n\n## Research Agenda\n\nThe questions retained from the source can be studied without presuming their\nanswer. A credible prospective study would:\n\n1. Record feeding exposure over time: direct feeding, expressed milk, formula,\n   mixed feeding, duration, and the reason for each feeding plan.\n2. Measure the specific intermediate outcome under study rather than inferring\n   it from feeding mode. Feeding coordination, growth, respiratory events,\n   sleep, and developmental outcomes are separate measures.\n3. Account for prematurity, infant illness, maternal health, family history,\n   socioeconomic conditions, access to diagnosis, and other plausible\n   confounders.\n4. Pre-specify outcomes, analysis, comparison groups, and how missing data and\n   changes in feeding mode will be handled.\n5. Separate association from causation and report null, mixed, and adverse\n   findings as clearly as positive associations.\n\nNo such ASD study is supplied in this package. The proper conclusion is\ntherefore a research boundary, not a clinical or population-level causal claim.\n\n## Publication Boundary\n\nThis is a research-scope correction. It is not medical advice or a clinical,\ntherapeutic, product-safety, regulatory, or legal conclusion. Separate\ncommercial material in the broader publication package is not part of this\npaper, is not evidence for its claims, and is not included in the autism-paper\nset.\n"
+    },
+    {
+      "paragraph_id": "D02_P001",
+      "source_path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/README.md",
+      "source_role": "autism_set_scope",
+      "source_sha256": "3b7fd828f49898cf394b0da260c887da0cb2e0a16aa35ed14cea02007e7efa9d",
+      "text": "# Autism Paper Set\n\nThis directory contains the publication rewrite:\n\n- `AUTISM_PAPER_REWRITE.v1.md`\n\nIt is a self-contained evidence-bound rewrite of the reviewed breast-pump and\nautism paper. It retains the research questions about feeding mechanics,\ncoordination, energy burden, sleep, airway health, and ASD measurement. It does\nnot carry forward a causal claim, a training method, a product protocol, or\ncommercial material.\n\nThe source review was retained outside this public autism-paper set because it\ncontains material that is not part of this rewrite. Source SHA-256:\n`51f4dd16386afbe539e71d0e3cc9691931a75f23f36161657a9f53bcb48f1513`.\n"
+    }
+  ],
+  "question_targets": [
+    {
+      "end": 223,
+      "id": "Q1",
+      "start": 0,
+      "text": "Does the autism-paper set retain its important research concepts while avoiding an unsupported feeding-device-to-ASD causal claim? Identify any statement that needs narrower wording, quoting the exact paragraph identifiers."
+    }
+  ],
+  "scope": "Only the named files or explicit spans; linked sources are not fetched.",
+  "source_bindings": [
+    {
+      "bytes": 8804,
+      "end": 8804,
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/AUTISM_PAPER_REWRITE.v1.md",
+      "role": "rewritten_autism_paper",
+      "selected_nfc_sha256": "abcf7dee071d00aec059d26f1190d600eac625f1f96e5158c619c6e74fefbd29",
+      "sha256": "abcf7dee071d00aec059d26f1190d600eac625f1f96e5158c619c6e74fefbd29",
+      "start": 0,
+      "whole_file": true
+    },
+    {
+      "bytes": 646,
+      "end": 646,
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/AUTISM/README.md",
+      "role": "autism_set_scope",
+      "selected_nfc_sha256": "3b7fd828f49898cf394b0da260c887da0cb2e0a16aa35ed14cea02007e7efa9d",
+      "sha256": "3b7fd828f49898cf394b0da260c887da0cb2e0a16aa35ed14cea02007e7efa9d",
+      "start": 0,
+      "whole_file": true
+    }
+  ],
+  "unit_id": "autism_evidence_boundary",
+  "whole_document": true
+}

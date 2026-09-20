@@ -1,0 +1,9 @@
+{
+  "allocation_id": "lrd-review:02c277585c1f2b148ebef42b9d9e19dd2e6731f14acb3785237791e9a5f2eb60",
+  "assay_design_sha256": "10f21d1794f503aadc067c6df3fcceeac311d7c13bc2ed9a534aae33296c1024",
+  "assigned_arm": "TREATMENT",
+  "assigned_crystal_set_sha256": "d6a53cf2e627457cd7cd918dad75d269b99ce332dcd975d0c0510745abcadcb0",
+  "comparison": "NONE; TREATMENT is only the native route's label",
+  "execution_unit_id": "lrd-review:02c277585c1f2b148ebef42b9d9e19dd2e6731f14acb3785237791e9a5f2eb60:01",
+  "schema_version": "brudo-lrd-review-assignment-plan-v1"
+}

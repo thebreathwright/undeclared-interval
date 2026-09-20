@@ -1,0 +1,8 @@
+{
+  "allocation_id": "lrd-review:02c277585c1f2b148ebef42b9d9e19dd2e6731f14acb3785237791e9a5f2eb60",
+  "assigned_arm": "TREATMENT",
+  "assigned_crystal_set_sha256": "d6a53cf2e627457cd7cd918dad75d269b99ce332dcd975d0c0510745abcadcb0",
+  "assignment_plan_sha256": "c86d13bd52950575a90273bbc2218ed84ab960b7a6fee510db9f15b3c9d385bb",
+  "execution_unit_id": "lrd-review:02c277585c1f2b148ebef42b9d9e19dd2e6731f14acb3785237791e9a5f2eb60:01",
+  "schema_version": "brudo-crystal-assay-assignment-receipt-v1"
+}

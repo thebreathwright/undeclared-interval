@@ -1,0 +1,68 @@
+{
+  "paragraphs": [
+    {
+      "paragraph_id": "D01_P001",
+      "source_path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/README.md",
+      "source_role": "training_set_scope",
+      "source_sha256": "f1d32c6f143b4e64f02e96a5102e7bf36a13905dc8c949831e1cd31c70385ffc",
+      "text": "# Separate Training Material\n\nThis directory is separate from `AUTISM/`. Its contents are not evidence for\nthe autism paper and must not be presented as a prevention, treatment, or\ncausal explanation for ASD.\n\nIncluded source material:\n\n- `iPAP Beginner Program SUMMARY.pdf`\n- `iPAP Beginner Program SUMMARY.pdf.txt`\n\nThe PDF is the source object. The text file is a reading copy. They are shipped\ntogether for provenance and accessibility.\n\nSee `LICENSE_AND_ACCESS.md` for commercial terms. The package-wide CC0 license\ndoes not apply to these two training files.\n"
+    },
+    {
+      "paragraph_id": "D02_P001",
+      "source_path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/LICENSE_AND_ACCESS.md",
+      "source_role": "commercial_terms",
+      "source_sha256": "0f7297f0d814ba8390011b76c3f78f8826136fef8c1e298b547d153c22004124",
+      "text": "# Training License And Access\n\n## Separation\n\nThis is a separate commercial training item. It is not part of the autism paper\nor autism-paper set, and it is not evidence for any autism claim.\n\n## Price\n\n| Licensee | Price |\n|---|---:|\n| Company | $299 USD |\n| Military or military-support organization | $599 USD |\n\nThese are the stated publication prices. No payment processor, purchaser\nrecord, account, credential, or license grant is created by this package.\n\n## Rights\n\n`iPAP Beginner Program SUMMARY.pdf` identifies itself as copyright 2024 Bruce\nWright, all rights reserved. It is not released under the root `LICENSE` or\nunder CC0. Any distribution or use must respect the rights notice in the source\nmaterial and the applicable commercial arrangement.\n\n## Provenance\n\n| File | SHA-256 |\n|---|---|\n| `iPAP Beginner Program SUMMARY.pdf` | `beda69ac4ad8ede03424237e0cdec69d68e374bd152a5e46c3932dc67c467ff1` |\n| `iPAP Beginner Program SUMMARY.pdf.txt` | `36a43690b42b97b3e162785be81ab906b453ede764117de3b0b45e9b51115796` |\n"
+    },
+    {
+      "paragraph_id": "D03_P001",
+      "source_path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/PACKAGE_INTEGRITY_FINDING.v1.md",
+      "source_role": "integrity_disposition",
+      "source_sha256": "9860e1a7afa24e7123d70cec304e65baea513949ce25ae4e6a059c323e0368d6",
+      "text": "# Package Integrity Finding v1\n\n## Finding\n\nThe source archive `4WAY_PUB_20260920.zip`, SHA-256\n`d466646964ad06fc51d57608f75cd4e907fa03df006ed477f61beb4c1c898de6`,\ncontains `kit_r2_snapshot/SHA256SUMS.txt`. That ledger lists:\n\n```text\n44f8b9a9a236676bd952c23a8036338909cdb01ee75de69c1df418b1fda603c6  ./code/__pycache__/apnea_burden.cpython-310.pyc\n```\n\nThe corresponding file is absent from both the extracted source archive and\nthis working package. The same package's `STRIP.md` says compiled Python cache\nfiles must not ship in an integrity manifest.\n\n## Effect\n\nThe r2 snapshot's ledger does not fully verify as delivered: 17 listed files\nverify and one listed compiled-cache file is absent. This finding does not\nchange the bytes or stated provenance of the 17 verified records.\n\n## Disposition\n\n`kit_r2_snapshot/` is retained unchanged as source evidence. The successor\npackage must use its own hash ledger and must not represent the r2 ledger as a\ncomplete verification of the delivered snapshot.\n"
+    }
+  ],
+  "question_targets": [
+    {
+      "end": 286,
+      "id": "Q1",
+      "start": 0,
+      "text": "Are the training material, the autism-paper set, the stated $299 company price, the stated $599 military or military-support price, and the inherited r2 integrity finding accurately separated? Quote the exact paragraph identifiers that support the answer and identify any contradiction."
+    }
+  ],
+  "scope": "Only the named files or explicit spans; linked sources are not fetched.",
+  "source_bindings": [
+    {
+      "bytes": 565,
+      "end": 565,
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/README.md",
+      "role": "training_set_scope",
+      "selected_nfc_sha256": "f1d32c6f143b4e64f02e96a5102e7bf36a13905dc8c949831e1cd31c70385ffc",
+      "sha256": "f1d32c6f143b4e64f02e96a5102e7bf36a13905dc8c949831e1cd31c70385ffc",
+      "start": 0,
+      "whole_file": true
+    },
+    {
+      "bytes": 1028,
+      "end": 1028,
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/TRAINING/LICENSE_AND_ACCESS.md",
+      "role": "commercial_terms",
+      "selected_nfc_sha256": "0f7297f0d814ba8390011b76c3f78f8826136fef8c1e298b547d153c22004124",
+      "sha256": "0f7297f0d814ba8390011b76c3f78f8826136fef8c1e298b547d153c22004124",
+      "start": 0,
+      "whole_file": true
+    },
+    {
+      "bytes": 1005,
+      "end": 1005,
+      "path": ".brudo/research/4way_pub_20260920_r2/4WAY_PUB/PACKAGE_INTEGRITY_FINDING.v1.md",
+      "role": "integrity_disposition",
+      "selected_nfc_sha256": "9860e1a7afa24e7123d70cec304e65baea513949ce25ae4e6a059c323e0368d6",
+      "sha256": "9860e1a7afa24e7123d70cec304e65baea513949ce25ae4e6a059c323e0368d6",
+      "start": 0,
+      "whole_file": true
+    }
+  ],
+  "unit_id": "training_separation_and_terms",
+  "whole_document": true
+}

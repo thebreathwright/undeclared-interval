@@ -1,0 +1,11 @@
+{
+  "answers": {
+    "Q1": {
+      "answer": "The autism-paper set retains research concepts about feeding mechanics, coordination, energy burden, and ASD measurement while explicitly avoiding unsupported causal claims linking feeding devices to ASD. The paper does not carry forward the source review's causal theory or assert that any feeding method or device creates a pathway to ASD. Key statements that require narrower wording include the explicit rejection of such claims, as outlined in the abstract and research agenda.",
+      "paragraph_ids": ["D01_P001", "D01_P002", "D01_P003", "D02_P001"]
+    }
+  },
+  "consequence_class": "BOUNDED_OUTPUT",
+  "question_sha256": "e14b72b39d8fb39a68d05b476a4325b0517626f861130cbff2fff6061d4ce6f4",
+  "unit_id": "autism_evidence_boundary"
+}

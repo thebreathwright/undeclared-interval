@@ -1,0 +1,46 @@
+==========================================================
+GLOBAL, ALL ADULTS
+==========================================================
+  mean AHI, sourced ...............           15.7
+  mean AHI, with 60/40 split ......           19.8  ESTIMATE
+
+  SOURCED  936M x 15.7 x 7.25h
+           per second .............      1,231,199
+           per 24h ...............           106 B
+  + 3% hypopnea scoring (x1.70)
+           per second .............      2,097,143
+           per 24h ...............           181 B
+
+  ESTIMATES, stated not baked in:
+    x1.5   ages <30 and >69              3,145,714 /s     272 B/day
+    x1.25  sub-threshold AHI 3-5         3,932,143 /s     340 B/day
+    x1.15  severe tail                   4,521,964 /s     391 B/day
+
+  UNSIZED: signal averaging time.
+           Farre 1998 - up to 60% underestimation at 12-21s vs 3s.
+
+==========================================================
+PREGNANT WOMEN
+==========================================================
+  pregnant at any instant .........     99,000,000
+  with SDB at 20% .................     19,800,000
+  events per second ...............         26,045
+  share of the adult total ........          2.1%
+
+  INTENSIVE (no population figure inside it):
+    per woman-night, if she has it             114
+    per pregnancy, if she has it ..         30,685
+    per pregnancy, averaged .......          6,137
+
+==========================================================
+WHAT IS COUNTED, AND WHAT IS NOT
+==========================================================
+  hypertension, adults 30-79 ......           1.4 B   WHO 2025
+  sleep apnea, adults 30-69 .......           0.9 B   Benjafield 2019
+  mouth breathing, any age ........ NO FIGURE EXISTS
+
+  Mouth breathing is measured at 26-56% in Brazilian schoolchildren
+  (Martins 2014, n=419, ages 6-11: 56.8%). There is no adult
+  prevalence figure, in any country. A condition running at that rate
+  in children cannot plausibly be rarer in adults than a condition
+  affecting 1.4 billion people. The question has not been asked.
