@@ -116,6 +116,17 @@ def main() -> int:
         "**NOT PUBLISHED.**" not in (ROOT / "README.md").read_text(encoding="utf-8"),
         "current README does not misstate GitHub publication status",
     )
+    current_status = (ROOT / "00_NOT_PUBLISHED.md").read_text(encoding="utf-8")
+    passed &= check(
+        "a public GitHub repository for this work" not in current_status,
+        "current status does not deny the successor GitHub publication",
+    )
+    notice = (ROOT / "notices" / "SUPERSESSION_NOTE.md").read_text(encoding="utf-8")
+    passed &= check(
+        "raw.githubusercontent.com/thebreathwright/undeclared-interval/" in notice
+        and "do not send this sentence without it" not in notice,
+        "supersession notice has a verified GitHub archive and no DOI-only gate",
+    )
     passed &= check(
         {path.name for path in AUTISM.iterdir() if path.is_file()} >= REQUIRED_AUTISM,
         "autism set has its rewrite and scope file",

@@ -34,7 +34,7 @@ See `channels/PLAYBOOK.md`.
 | 1 | Internet Archive complete-document item | authorized Archive account |
 | 2 | GitHub public repository (history) | authorized GitHub account |
 | 3 | Zenodo dataset/software (DOI) | authorized Zenodo account |
-| 4 | One-page supersession note to the 14 Sep 2025 Message-ID list | authorized sender, after DOI |
+| 4 | One-page supersession note to the 14 Sep 2025 Message-ID list | authorized sender; DOI optional |
 
 OSF remains an optional mirror; it is not one of the four required surfaces.
 

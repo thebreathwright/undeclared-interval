@@ -1,6 +1,7 @@
 # Zenodo Deposit
 
-**Prepared, not submitted. No DOI exists.**
+**Prepared, not submitted. No DOI exists. Zenodo is independent of the other
+three ways.**
 
 ## Object
 
@@ -46,8 +47,9 @@ reflects that mixed package, and record the choice in release closure.
 
 1. Create the deposit and upload the sealed ZIP plus sidecar.
 2. Set the metadata and access/license choice above.
-3. Publish only after the resulting DOI and record URL are available.
+3. Publish after the resulting DOI and record URL are available.
 4. Retrieve the published ZIP, compare its SHA-256 to the sidecar, run
    `verify_public_package.py` against extracted bytes, and record the result in
    `RELEASE_CLOSURE_TEMPLATE.v1.md`.
-5. Put the DOI in the supersession note before Way 4 is sent.
+5. Add the DOI to a later GitHub closure record and, if useful, the
+   supersession note. It does not delay Archive, GitHub, or the notice.

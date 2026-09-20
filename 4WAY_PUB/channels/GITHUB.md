@@ -3,8 +3,8 @@
 **Status:** public and byte-verified.
 
 Repository: `https://github.com/thebreathwright/undeclared-interval`.
-The closure record identifies the verified v4 archive object; later commits
-carry its closure record and successor package files.
+The closure record identifies the verified v4, v8, and v9 archive objects.
+GitHub publication does not wait for an Archive item or a Zenodo DOI.
 
 ## Files that belong
 
@@ -17,7 +17,7 @@ carry its closure record and successor package files.
 - `NOTIFICATION_MANIFEST` body that leads with 2.7 billion deaths
 - Anything on `STRIP.md`
 
-## After a DOI exists
+## Optional Tag
 
-    git tag -a v1.0.0 -m "Zenodo DOI: 10.5281/zenodo.XXXX"
-    git push origin v1.0.0
+Tag a verified archive when a stable GitHub label is useful. A later DOI may be
+recorded in the tag annotation or closure record; it is not a prerequisite.

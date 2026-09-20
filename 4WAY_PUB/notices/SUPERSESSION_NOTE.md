@@ -1,6 +1,7 @@
-# Supersession note — DRAFTED, NOT SENT
+# Supersession note — READY TO SEND
 
-Fill the DOI. Do not send a blank. Do not send from this desk.
+The notice identifies a verified public GitHub archive now. A Zenodo DOI may be
+added later; it is not a condition of sending this correction.
 
 ---
 
@@ -15,12 +16,15 @@ That headline is **not a finding**. It is withdrawn as a result.
 What replaces it is a methods kit:
 
 - Title: *An Undeclared Measurement Interval: signal averaging time in oximetry-based screening, and the prevalence figures that depend on it*
-- DOI: **[paste Zenodo DOI here — do not send this sentence without it]**
+- Verified archive: `https://raw.githubusercontent.com/thebreathwright/undeclared-interval/0283b67c84e69d314f0c6f1f7bcb23120cdac83a/4WAY_PUB_COMPLETE_v9.zip`
+- SHA-256: `db3dcd4334d3cdd3ca77942622b84afef687337571f60a13c3c1dbadf505f7da`
+- Repository and closure record: `https://github.com/thebreathwright/undeclared-interval`
 - Correction log is the face page. Sourced and estimated inputs are split.
 - No person is named as responsible for the gap the kit describes.
 
-Please cite the DOI, not the 2025 subject line.
+Please cite the archive SHA-256 and repository, not the 2025 subject line. A
+Zenodo DOI may be appended if one is published.
 
 ---
 
-Ends. No 2.7 billion in the body once the DOI line is filled. No defendants. No request for representation.
+Ends. No 2.7 billion in the body. No defendants. No request for representation.

@@ -15,12 +15,11 @@ and retrieval time in `RELEASE_CLOSURE_TEMPLATE.v1.md`.
 
 Purpose: diffs, not another zip filename.
 
-1. Choose a name. Suggested: `undeclared-interval`. Not `maps`. Not `homebrew-crystals`.
-2. Create the repository **public** only when the tree matches `STRIP.md`.
-3. Copy this packet (minus `kit_r2_snapshot/` if you prefer one tree).
-4. `.gitignore` must include `__pycache__/`, `*.pyc`, `.DS_Store`.
-5. First commit message should identify the exact Archive item and package hash;
-   tag only after the Zenodo DOI is recorded.
+1. The public repository is `thebreathwright/undeclared-interval`.
+2. Each commit must identify its exact archive hash in the closure record.
+3. `.gitignore` must include `__pycache__/`, `*.pyc`, `.DS_Store`.
+4. A GitHub release does not wait for an Archive item or Zenodo DOI. Tags are
+   optional immutable labels and may be added before or after a DOI.
 
 The public repository is `thebreathwright/undeclared-interval`. Its retrieved
 v4 archive is recorded as closed in `RELEASE_CLOSURE_RECORD.v1.md`.
@@ -29,11 +28,14 @@ See `GITHUB.md`.
 
 ## Way 3 — Zenodo (DOI)
 
-Purpose: a permanent identifier. Irreversible when you click Publish.
+Purpose: an independent permanent identifier. Irreversible when you click
+Publish, but not a prerequisite for the other ways.
 
 Use `ZENODO_DEPOSIT.md` (from r2). Title stays on the method.
 
-After you *reserve* a DOI, paste it into `README.md` and commit, then publish the deposit that contains that commit.
+After you reserve or publish a DOI, record it in the closure record and a later
+GitHub commit. Do not reseal an otherwise verified archive merely to insert a
+DOI; that creates a circular release requirement.
 
 ## Optional — OSF mirror
 
@@ -45,4 +47,5 @@ See `OSF.md`.
 
 Purpose: the 14 Sep 2025 object is the one 66 addresses already have. A new DOI does not retract it. Only a note that points at the correction log does.
 
-See `../notices/SUPERSESSION_NOTE.md`. Fill the DOI. Send only if you choose to. This desk does not send mail.
+See `../notices/SUPERSESSION_NOTE.md`. It already cites a verified GitHub
+archive. Add a DOI when one exists; it is not a sending prerequisite.

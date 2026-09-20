@@ -10,6 +10,7 @@
 | P04 | The front page made an absolute screening-recommendation statement | Narrowed it to the evidence claim this package can support | Current README checked in package review |
 | P05 | Code verification was outside the package verifier | Added execution checks for both reproducible code outputs and all five models | `verify_public_package.py` executes them |
 | P06 | Verifier execution created a compiled-cache directory under `code/` | Removed the cache and run all package Python with `-B` | Package verifier rejects any `code/__pycache__` directory |
+| P07 | Release instructions treated Archive and Zenodo as dependencies for GitHub and the correction notice | Made all four ways independent; the notice now identifies the verified GitHub archive and a DOI is optional | Package verifier checks the current status and notice wording |
 
 ## Historical Records
 

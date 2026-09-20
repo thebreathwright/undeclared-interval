@@ -30,10 +30,23 @@ does not rewrite that archive or make the remaining three ways closed.
 | Retrieval check | Retrieved bytes hashed to the published SHA-256; `unzip -t` passed |
 | Actor | GitHub account `thebreathwright` via its configured token |
 
+## Way 2: GitHub Current Complete Package
+
+| Field | Value |
+|---|---|
+| State | CLOSED for the v9 archive object below |
+| Repository | `https://github.com/thebreathwright/undeclared-interval` |
+| Commit | `0283b67c84e69d314f0c6f1f7bcb23120cdac83a` |
+| Published file | `4WAY_PUB_COMPLETE_v9.zip` |
+| Published file SHA-256 | `db3dcd4334d3cdd3ca77942622b84afef687337571f60a13c3c1dbadf505f7da` |
+| Retrieval URL | `https://raw.githubusercontent.com/thebreathwright/undeclared-interval/0283b67c84e69d314f0c6f1f7bcb23120cdac83a/4WAY_PUB_COMPLETE_v9.zip` |
+| Retrieval check | Retrieved bytes hashed to the published SHA-256; `unzip -t` passed |
+| Actor | GitHub account `thebreathwright` via its configured token |
+
 ## Remaining Ways
 
 | Way | State | Missing closure evidence |
 |---|---|---|
 | 1 Internet Archive | DRAFTED | Authorized upload, item URL, retrieved-object hash |
 | 3 Zenodo | DRAFTED | Authorized deposit, DOI, retrieved-object hash |
-| 4 Supersession note | DRAFTED | DOI and sender action |
+| 4 Supersession note | READY TO SEND | Sender action; DOI is optional |

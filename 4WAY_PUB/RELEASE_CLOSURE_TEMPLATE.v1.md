@@ -1,14 +1,16 @@
 # Four-Way Release Closure
 
-This record is blank because no remote publication has been verified. A local
-archive, a correction-log entry, and a successful build are not closure.
+Use this template for a new remote object. The current GitHub closures are in
+`RELEASE_CLOSURE_RECORD.v1.md`; this template is not a claim that every way is
+still unopened. A local archive, a correction-log entry, and a successful build
+are not remote-retrieval evidence.
 
 ## Bound Local Object
 
 | Field | Value |
 |---|---|
-| Package archive | Fill from the final sealed archive |
-| Package SHA-256 | Fill from the final sealed archive |
+| Package archive | Record the named sealed archive for the way being closed |
+| Package SHA-256 | Record the SHA-256 for that archive |
 | Internal successor ledger | `SHA256SUMS.v1` |
 | Local verifier | `verify_public_package.py` |
 | Local status | Verified; inherited r2 cache-entry mismatch remains recorded in `PACKAGE_INTEGRITY_FINDING.v1.md` |
@@ -31,9 +33,9 @@ and `CHECKED_LOCALLY` are not synonyms for `CLOSED`.
 | Way | Required remote object | Current state | Closure evidence |
 |---|---|---|---|
 | 1 Internet Archive | Complete ZIP item and retrieved bytes | DRAFTED | Not yet recorded |
-| 2 GitHub | Public repository, commit, and tag | DRAFTED | Not yet recorded |
+| 2 GitHub | Public repository and exact commit/archive | CLOSED | See `RELEASE_CLOSURE_RECORD.v1.md` |
 | 3 Zenodo | Published deposit and DOI | DRAFTED | Not yet recorded |
-| 4 Notice | Sent supersession notice with DOI | DRAFTED | Not yet recorded |
+| 4 Notice | Sent supersession notice linking to a verified public archive or DOI | READY TO SEND | Sender action is still required; a DOI is optional |
 
 ## Correction-Shipment Rule
 
