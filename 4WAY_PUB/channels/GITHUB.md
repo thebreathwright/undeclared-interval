@@ -1,16 +1,10 @@
-# Way 1 — GitHub
+# Way 2 — GitHub
 
-**Status:** not created for this work.
+**Status:** public and byte-verified.
 
-Authenticated here as `thebreathwright` (https://github.com/thebreathwright).
-
-Do not reuse `maps` (private, symbolic maps) or `homebrew-crystals` (public, unrelated tap).
-
-## Suggested remote
-
-    thebreathwright/undeclared-interval
-
-README first paragraph = “What this does not establish.”
+Repository: `https://github.com/thebreathwright/undeclared-interval`.
+The closure record identifies the verified v4 archive object; later commits
+carry its closure record and successor package files.
 
 ## Files that belong
 

@@ -1,4 +1,4 @@
-# 4WAY playbook — you click
+# 4WAY release playbook
 
 Order matters. Corrections and strip list first. Then the machine. Then the identifier. Then the note.
 
@@ -22,9 +22,8 @@ Purpose: diffs, not another zip filename.
 5. First commit message should identify the exact Archive item and package hash;
    tag only after the Zenodo DOI is recorded.
 
-This desk is logged in as `thebreathwright` and **will not create or push** unless you write: create public repo `<name>` now.
-
-Connected account facts (20 Sep 2026): user created 12 Jul 2026; public `homebrew-crystals`; no existing undeclared-interval repo found.
+The public repository is `thebreathwright/undeclared-interval`. Its retrieved
+v4 archive is recorded as closed in `RELEASE_CLOSURE_RECORD.v1.md`.
 
 See `GITHUB.md`.
 

@@ -7,7 +7,7 @@ This packet is the four-channel publish kit for the *undeclared measurement inte
 - `open_release_kit_20260919_r2.zip` (sha256 `fa9872671aea1705e2c3707443e9861732cf2472092bfad1861827a2d26c8a01`)
 - five physiology models: `swing.py` `fetus.py` `bohr.py` `chain.py` `budget.py`
 
-It does **not** contain, and does not certify:
+The preserved r2 snapshot does **not** contain, and does not certify:
 
 - `OPEN_RELEASE_20260919_r3.zip` / sha `0f057195…`
 - git commits `547232a` / `360eba8`
@@ -16,6 +16,9 @@ It does **not** contain, and does not certify:
 - a Zenodo DOI
 - a public GitHub repository for this work
 
-GitHub is authenticated on this desk as **thebreathwright**. Public repos seen: `homebrew-crystals`. There is **no** existing open-release / undeclared-interval repository. This desk will not create or push one unless you name the repo and say push.
+The successor package has a verified public GitHub history at
+`https://github.com/thebreathwright/undeclared-interval`. See
+`RELEASE_CLOSURE_RECORD.v1.md`. No Internet Archive item, Zenodo DOI, or
+supersession notice has been closed.
 
 Licence for findings, code, and this wrapper: **CC0 1.0**. Cited papers remain their publishers'.
