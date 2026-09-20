@@ -21,6 +21,7 @@ ledger remain its record.
 | `GRAx_AUDIT_READBACK.v1.md` | Human readback of what the model result does and does not establish | Recorded in `SHA256SUMS.v1` |
 | `GRAx_DIRECT_BATCH_FAILURE.v1.md` | Preserved failed preflight before route-custody repair | Recorded in `SHA256SUMS.v1` |
 | `RELEASE_CLOSURE_TEMPLATE.v1.md` | Required shipment and remote-retrieval evidence for all four ways | Recorded in `SHA256SUMS.v1` |
+| `RELEASE_CLOSURE_RECORD.v1.md` | Verified GitHub v4 release record and outstanding channels | Recorded in `SHA256SUMS.v1` |
 | `channels/INTERNET_ARCHIVE.md` | Complete-document Archive.org upload and retrieval contract | Recorded in `SHA256SUMS.v1` |
 
 ## Boundaries Checked By Code
