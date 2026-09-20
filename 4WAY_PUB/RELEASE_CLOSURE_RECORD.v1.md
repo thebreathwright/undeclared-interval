@@ -17,6 +17,19 @@
 The released object is the v4 archive committed above. The later closure record
 does not rewrite that archive or make the remaining three ways closed.
 
+## Way 2: GitHub Current Repaired Package
+
+| Field | Value |
+|---|---|
+| State | CLOSED for the v8 archive object below |
+| Repository | `https://github.com/thebreathwright/undeclared-interval` |
+| Commit | `58b78eb1871c4b9c3ddf8031c1a1350a92a58103` |
+| Published file | `4WAY_PUB_COMPLETE_v8.zip` |
+| Published file SHA-256 | `76283d8964a677f37e663fb1f7135bfc14afcece1d580f1d541457fe8a951c23` |
+| Retrieval URL | `https://raw.githubusercontent.com/thebreathwright/undeclared-interval/58b78eb1871c4b9c3ddf8031c1a1350a92a58103/4WAY_PUB_COMPLETE_v8.zip` |
+| Retrieval check | Retrieved bytes hashed to the published SHA-256; `unzip -t` passed |
+| Actor | GitHub account `thebreathwright` via its configured token |
+
 ## Remaining Ways
 
 | Way | State | Missing closure evidence |
