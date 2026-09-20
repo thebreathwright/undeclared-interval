@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -66,6 +67,31 @@ def verify_json_manifest(manifest_path: Path, base: Path, label: str) -> bool:
     return passed
 
 
+def verify_programs() -> bool:
+    expected = {
+        ROOT / "code" / "apnea_burden.py": ROOT / "code" / "EXPECTED_OUTPUT.txt",
+        ROOT / "code" / "estimated_series.py": ROOT / "code" / "EXPECTED_OUTPUT_ESTIMATED.txt",
+    }
+    passed = True
+    for program, output_file in expected.items():
+        result = subprocess.run(
+            [sys.executable, "-B", str(program)], capture_output=True, check=False
+        )
+        passed &= check(
+            result.returncode == 0 and result.stdout == output_file.read_bytes(),
+            f"reproducible output {program.relative_to(ROOT)}",
+        )
+    for program in sorted((ROOT / "models").glob("*.py")):
+        result = subprocess.run(
+            [sys.executable, "-B", str(program)], capture_output=True, check=False
+        )
+        passed &= check(
+            result.returncode == 0 and bool(result.stdout),
+            f"model runs {program.relative_to(ROOT)}",
+        )
+    return passed
+
+
 def main() -> int:
     passed = True
     passed &= check(AUTISM.is_dir(), "autism directory exists")
@@ -77,6 +103,18 @@ def main() -> int:
     passed &= check(
         (ROOT / "channels" / "INTERNET_ARCHIVE.md").is_file(),
         "Internet Archive complete-document channel exists",
+    )
+    passed &= check(
+        not (ROOT / "GRAx_AUDIT_RESULT.v1.json").exists(),
+        "failed direct Grax attempt has no empty response artifact",
+    )
+    passed &= check(
+        not any((ROOT / "code").rglob("__pycache__")),
+        "code directory has no compiled-cache directory",
+    )
+    passed &= check(
+        "**NOT PUBLISHED.**" not in (ROOT / "README.md").read_text(encoding="utf-8"),
+        "current README does not misstate GitHub publication status",
     )
     passed &= check(
         {path.name for path in AUTISM.iterdir() if path.is_file()} >= REQUIRED_AUTISM,
@@ -101,14 +139,13 @@ def main() -> int:
     passed &= check(coverage["verified_responses"] == 2, "two routed Grax responses verified")
     passed &= check(not coverage["failed_jobs"], "Grax audit has no failed jobs")
     passed &= verify_json_manifest(audit_root / "MANIFEST.json", audit_root, "Grax")
+    passed &= verify_programs()
     passed &= verify_ledger(ROOT / "SHA256SUMS.v1", ROOT, "v1")
-    legacy_passed = verify_ledger(
+    passed &= verify_ledger(
         ROOT / "kit_r2_snapshot" / "SHA256SUMS.txt",
         ROOT / "kit_r2_snapshot",
         "r2",
     )
-    if not legacy_passed:
-        print("KNOWN LEGACY FAILURE see PACKAGE_INTEGRITY_FINDING.v1.md")
 
     print("UNRUN clinical validity, legal enforceability, payment collection, and publication acceptance")
     return 0 if passed else 1

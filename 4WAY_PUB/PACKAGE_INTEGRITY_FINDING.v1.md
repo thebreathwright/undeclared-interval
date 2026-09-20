@@ -14,14 +14,12 @@ The corresponding file is absent from both the extracted source archive and
 this working package. The same package's `STRIP.md` says compiled Python cache
 files must not ship in an integrity manifest.
 
-## Effect
+## Repair
 
-The r2 snapshot's ledger does not fully verify as delivered: 17 listed files
-verify and one listed compiled-cache file is absent. This finding does not
-change the bytes or stated provenance of the 17 verified records.
+The defective delivered ledger is retained verbatim as
+`kit_r2_snapshot/SHA256SUMS.source-delivered.txt`. The active
+`kit_r2_snapshot/SHA256SUMS.txt` removes only the absent compiled-cache entry.
+It now verifies the 17 delivered files it names.
 
-## Disposition
-
-`kit_r2_snapshot/` is retained unchanged as source evidence. The successor
-package must use its own hash ledger and must not represent the r2 ledger as a
-complete verification of the delivered snapshot.
+The source-ledger copy is historical evidence, not the active package verifier.
+The successor package uses `SHA256SUMS.v1` for the complete tree.

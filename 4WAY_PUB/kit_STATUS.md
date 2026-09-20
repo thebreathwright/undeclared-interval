@@ -1,7 +1,8 @@
-# Status — what this is, and what it is not
+# r2 Source-Kit Status — Historical
 
-**It is not public.** No DOI. No repository. No URL. A zip on one disk inside one
-sandbox. Nothing here is un-erasable, and nothing here has priority.
+The next sections report the r2 source state. They are not the current
+publication state: GitHub is public and retrieval-verified; the other three
+ways remain open as recorded in `RELEASE_CLOSURE_RECORD.v1.md`.
 
 **It is not a measurement.** It is a machine with inputs. Change the inputs and
 every number changes. That is the design, not a defect — but a default printed

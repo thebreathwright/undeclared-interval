@@ -22,6 +22,7 @@ ledger remain its record.
 | `GRAx_DIRECT_BATCH_FAILURE.v1.md` | Preserved failed preflight before route-custody repair | Recorded in `SHA256SUMS.v1` |
 | `RELEASE_CLOSURE_TEMPLATE.v1.md` | Required shipment and remote-retrieval evidence for all four ways | Recorded in `SHA256SUMS.v1` |
 | `RELEASE_CLOSURE_RECORD.v1.md` | Verified GitHub v4 release record and outstanding channels | Recorded in `SHA256SUMS.v1` |
+| `PACKAGE_REPAIR_LOG.v1.md` | Closed package defects and their verification predicates | Recorded in `SHA256SUMS.v1` |
 | `channels/INTERNET_ARCHIVE.md` | Complete-document Archive.org upload and retrieval contract | Recorded in `SHA256SUMS.v1` |
 
 ## Boundaries Checked By Code
@@ -32,11 +33,10 @@ the stated prices are present, and that the listed source hashes match. It also
 checks every available r2 snapshot hash. Its `UNRUN` output records what those
 checks do not assess.
 
-The r2 ledger has one delivered-file failure: it lists a compiled Python cache
-file that the supplied archive does not contain. The verifier reports that
-failure without modifying the retained r2 snapshot; see
-`PACKAGE_INTEGRITY_FINDING.v1.md`. `SHA256SUMS.v1` is the complete successor
-ledger for the delivered package and is the ledger that must pass.
+The source-delivered r2 ledger listed a compiled Python cache file that the
+supplied archive did not contain. It is preserved as
+`kit_r2_snapshot/SHA256SUMS.source-delivered.txt`; the active r2 ledger removes
+that entry and passes. See `PACKAGE_INTEGRITY_FINDING.v1.md`.
 
 ## License Boundary
 

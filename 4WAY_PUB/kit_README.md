@@ -1,9 +1,9 @@
-# The Interval Nobody Declared
+# The Interval Nobody Declared — r2 Source-Kit Readme
 
-**NOT PUBLISHED.** A folder on one disk. Assembled 19 September 2026.
-There is no DOI, no repository, no public URL. Nothing here outlives this
-machine until someone uploads it somewhere that does. Calling it an "open
-release" before that is the transmittal-for-letter error applied to itself.
+**Historical r2 text, assembled 19 September 2026.** Its former statements
+about no repository or public URL describe the r2 source state, not the current
+successor package. Current GitHub release status is in
+`RELEASE_CLOSURE_RECORD.v1.md`.
 
 An instrument that measures blood oxygen continuously and non-invasively has
 existed since 1940. Maternal nocturnal oxygen desaturation is associated with
@@ -28,7 +28,7 @@ maternal apnea events moved 5,938 -> 36,300 -> 71,351 per second, and the global
 figure moved 148B -> 272B -> 181B per day. Each move was a specific, named error.
 They are logged because a number you cannot audit is not evidence.
 
-## The three claims
+## The three r2 claims
 
 1. **The instrument existed.** Squire 1940 established the red/infrared principle.
    Millikan built the first practical portable oximeter in 1940 and presented it

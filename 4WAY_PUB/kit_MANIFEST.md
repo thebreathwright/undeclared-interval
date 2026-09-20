@@ -1,7 +1,7 @@
-# Manifest
+# r2 Source-Kit Manifest
 
-Open evidence release. Assembled 19 September 2026.
-Verify with: `sha256sum -c SHA256SUMS.txt`
+Historical r2 content, assembled 19 September 2026. Verify the active repaired
+r2 ledger with `cd kit_r2_snapshot && sha256sum -c SHA256SUMS.txt`.
 
     README.md                             the three claims, and what they do not establish
     corrections/LOG.md                    every number that was wrong, and why — read first
@@ -14,7 +14,8 @@ Verify with: `sha256sum -c SHA256SUMS.txt`
 
 ## Status
 
-Nothing filed. Nothing sent. No claim asserted on anyone's behalf.
+This was the r2 source-kit status. Current public-release status is recorded in
+`RELEASE_CLOSURE_RECORD.v1.md`.
 No person is named as responsible for anything in this release.
 
 ## Not yet done

@@ -2,7 +2,8 @@
 
 Signal averaging time in oximetry-based screening, and the prevalence figures that depend on it.
 
-**NOT PUBLISHED.** Read `00_NOT_PUBLISHED.md` and `corrections/` before `findings/`.
+**GitHub Way 2 is public and retrieval-verified.** Read
+`00_NOT_PUBLISHED.md` and `corrections/` before `findings/`.
 
 ## What this does not establish
 
@@ -18,7 +19,9 @@ Signal averaging time in oximetry-based screening, and the prevalence figures th
 
 1. A portable non-invasive blood-oxygen instrument has existed since 1940 (availability, not obstetric readiness).
 2. Maternal nocturnal desaturation is *associated* with impaired fetal growth in small observational work. Limits above.
-3. No body recommends screening pregnant persons for OSA. USPSTF Grade I does not apply that adult-screening question to them.
+3. This package does not establish a consensus recommendation to screen
+   pregnant persons for OSA. USPSTF Grade I does not apply that adult-screening
+   question to them.
 4. CMS Transmittal 166 (22 July 2005) and LCD L33797 specify custody of overnight oximetry and do not specify signal averaging time. Farré 1998: desaturation depth underestimated by up to 60% at 12 s and 21 s averaging versus 3 s.
 5. Reconstruction rule: **the printed rule can be constant while the gas is not.** A 4-point saturation drop is ~39 mmHg from 98% and ~8 mmHg from 90% (Hill \(n=2.7\), \(P_{50}=26.6\)). Do not invert Hill near 98% ± 2 points and call the span a PaO₂.
 

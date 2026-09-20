@@ -1,6 +1,7 @@
-# 4WAY PUB — prepared, not published
+# 4WAY PUB — GitHub published; remaining ways open
 
-**20 September 2026. A draft is not a DOI. A local folder is not a remote. A commit hash recited from another machine is not certified here.**
+**20 September 2026. GitHub Way 2 is public and retrieval-verified. No Zenodo
+DOI, Internet Archive item, or supersession notice is yet closed.**
 
 This packet is the four-channel publish kit for the *undeclared measurement interval* work. It is assembled from files that exist on this disk:
 
